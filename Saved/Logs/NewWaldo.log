@@ -3172,3 +3172,347 @@ LogInit: Object subsystem initialized
 [2018.10.14-12.45.38:839][537]SourceControl:  rewrite Content/UI/ITEMS.uasset (80%)
 [2018.10.14-12.45.38:847][537]SourceControl: Commited [master 1aac2ba] HUD Update:Sloution reached.
 [2018.10.14-12.46.02:196][689]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/ITEMS.ITEMS
+[2018.10.14-12.51.39:352][964]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.10.14-12.52.18:098][225]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.14-12.52.19:660][231]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/ThirdPersonCharacter215458F7486AE952FB26E1ACC4F30A86.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.14-12.52.20:517][242]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2018.10.14-12.52.22:038][259]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-12.52.22:088][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.52.22:088][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-12.52.22:090][259]PIE: New page: PIE session: world (Oct 14, 2018, 4:52:22 AM)
+[2018.10.14-12.52.22:090][259]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.10.14-12.52.22:226][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135789s)
+[2018.10.14-12.52.22:227][259]LogAIModule: Creating AISystem for world world
+[2018.10.14-12.52.22:227][259]LogPlayLevel: PIE: World Init took: (0.001237s)
+[2018.10.14-12.52.22:227][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.137376s)
+[2018.10.14-12.52.22:281][259]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-12.52.22:322][259]LogInit: FAudioDevice initialized.
+[2018.10.14-12.52.22:366][259]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-12.52.22:412][259]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 0) at 2018.10.14-08.52.22
+[2018.10.14-12.52.22:413][259]LogWorld: Bringing up level for play took: 0.046115
+[2018.10.14-12.52.22:432][259]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 0.363
+[2018.10.14-12.52.22:433][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.52.31:619][577]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.52.31:620][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-12.52.31:695][577]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-12.52.31:695][577]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.52.31:733][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-12.52.31:855][578]LogPlayLevel: Display: Destroying online subsystem :Context_213
+[2018.10.14-12.52.32:636][587]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-12.52.35:746][648]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.10.14-12.52.37:877][666]LogEditorTransaction: Undo Delete current selection
+[2018.10.14-12.52.43:004][720]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.14-12.52.45:081][728]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/ThirdPersonCharacterF39806654BF7FB91DC2100873493D5DE.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.14-12.53.03:050][928]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.14-12.53.04:175][928]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/ThirdPersonCharacter22E5D3254BFBA744C61AEC89728FF494.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.14-12.53.05:906][939]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/ThirdPersonCharacter333FBF774F05CA80A3A89C9C2B98B7E9.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.14-12.53.10:204][988]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2018.10.14-12.53.11:887][  6]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-12.53.12:001][  6]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.53.12:001][  6]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-12.53.12:002][  6]PIE: New page: PIE session: world (Oct 14, 2018, 4:53:12 AM)
+[2018.10.14-12.53.12:002][  6]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.10.14-12.53.12:109][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.106316s)
+[2018.10.14-12.53.12:110][  6]LogAIModule: Creating AISystem for world world
+[2018.10.14-12.53.12:110][  6]LogPlayLevel: PIE: World Init took: (0.001276s)
+[2018.10.14-12.53.12:111][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.107987s)
+[2018.10.14-12.53.12:201][  6]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-12.53.12:244][  6]LogInit: FAudioDevice initialized.
+[2018.10.14-12.53.12:278][  6]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-12.53.12:289][  6]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 0) at 2018.10.14-08.53.12
+[2018.10.14-12.53.12:291][  6]LogWorld: Bringing up level for play took: 0.011269
+[2018.10.14-12.53.12:306][  6]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 0.238
+[2018.10.14-12.53.12:307][  6]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.53.23:059][340]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.53.23:060][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-12.53.23:131][340]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-12.53.23:132][340]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.53.23:202][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-12.53.23:347][341]LogPlayLevel: Display: Destroying online subsystem :Context_215
+[2018.10.14-12.53.23:920][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-12.53.27:509][426]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.10.14-12.53.35:714][501]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.14-12.53.37:851][508]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/ThirdPersonCharacter41D013D24D96F407CED6D4BF4E1BD8A7.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.14-12.55.14:032][868]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.14-12.55.15:511][873]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/ThirdPersonCharacterB254E9EF48733239F06A0E81F058327A.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.14-12.55.16:096][881]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2018.10.14-12.55.17:783][899]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-12.55.17:952][899]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.55.17:952][899]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-12.55.17:952][899]PIE: New page: PIE session: world (Oct 14, 2018, 4:55:17 AM)
+[2018.10.14-12.55.17:952][899]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.10.14-12.55.18:019][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066631s)
+[2018.10.14-12.55.18:020][899]LogAIModule: Creating AISystem for world world
+[2018.10.14-12.55.18:020][899]LogPlayLevel: PIE: World Init took: (0.001195s)
+[2018.10.14-12.55.18:020][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.068093s)
+[2018.10.14-12.55.18:076][899]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-12.55.18:114][899]LogInit: FAudioDevice initialized.
+[2018.10.14-12.55.18:150][899]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-12.55.18:190][899]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 0) at 2018.10.14-08.55.18
+[2018.10.14-12.55.18:191][899]LogWorld: Bringing up level for play took: 0.040374
+[2018.10.14-12.55.18:206][899]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 0.137
+[2018.10.14-12.55.18:207][899]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.55.24:519][114]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.55.24:519][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-12.55.24:621][114]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-12.55.24:621][114]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.55.24:656][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-12.55.24:715][115]LogPlayLevel: Display: Destroying online subsystem :Context_217
+[2018.10.14-12.55.25:586][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-12.55.25:658][127]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-12.55.25:685][127]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.55.25:686][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-12.55.25:686][127]PIE: New page: PIE session: world (Oct 14, 2018, 4:55:25 AM)
+[2018.10.14-12.55.25:686][127]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.10.14-12.55.25:807][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120293s)
+[2018.10.14-12.55.25:808][127]LogAIModule: Creating AISystem for world world
+[2018.10.14-12.55.25:809][127]LogPlayLevel: PIE: World Init took: (0.001948s)
+[2018.10.14-12.55.25:809][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.122708s)
+[2018.10.14-12.55.25:854][127]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-12.55.25:878][127]LogInit: FAudioDevice initialized.
+[2018.10.14-12.55.25:914][127]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-12.55.25:919][127]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 0) at 2018.10.14-08.55.25
+[2018.10.14-12.55.25:920][127]LogWorld: Bringing up level for play took: 0.005494
+[2018.10.14-12.55.25:936][127]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world -0.134
+[2018.10.14-12.55.25:936][127]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.55.38:342][527]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.55.38:342][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-12.55.38:408][527]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-12.55.38:408][527]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.55.38:461][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-12.55.38:618][528]LogPlayLevel: Display: Destroying online subsystem :Context_218
+[2018.10.14-12.55.40:279][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-12.55.40:594][548]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.10.14-12.55.50:173][638]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.14-12.55.51:535][639]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/ThirdPersonCharacter341DB511442DBF23D76E4CA728081C27.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.14-12.55.52:375][649]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2018.10.14-12.55.53:533][658]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-12.55.53:601][658]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.55.53:602][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-12.55.53:602][658]PIE: New page: PIE session: world (Oct 14, 2018, 4:55:53 AM)
+[2018.10.14-12.55.53:603][658]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.10.14-12.55.53:698][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094783s)
+[2018.10.14-12.55.53:699][658]LogAIModule: Creating AISystem for world world
+[2018.10.14-12.55.53:700][658]LogPlayLevel: PIE: World Init took: (0.001462s)
+[2018.10.14-12.55.53:700][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.096799s)
+[2018.10.14-12.55.53:759][658]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-12.55.53:804][658]LogInit: FAudioDevice initialized.
+[2018.10.14-12.55.53:845][658]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-12.55.53:855][658]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 0) at 2018.10.14-08.55.53
+[2018.10.14-12.55.53:856][658]LogWorld: Bringing up level for play took: 0.010334
+[2018.10.14-12.55.53:871][658]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world -0.197
+[2018.10.14-12.55.53:872][658]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.55.58:833][809]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.55.58:835][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-12.55.58:906][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-12.55.58:906][809]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-12.55.58:961][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-12.55.59:056][810]LogPlayLevel: Display: Destroying online subsystem :Context_220
+[2018.10.14-12.56.00:383][825]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-12.56.04:591][942]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.10.14-12.56.13:959][ 26]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/ThirdPersonCharacterB897A4784723E727351BB38DEA8E29F1.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.14-12.56.15:743][ 47]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.14-12.56.19:194][ 74]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2018.10.14-12.57.35:033][439]LogEditorViewport: Clicking on Actor (LMB): Bino_C (Bino)
+[2018.10.14-12.57.37:323][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-12.57.41:852][502]LogEditorViewport: Clicking on Actor (LMB): Camera_C (Camera)
+[2018.10.14-12.57.50:145][579]LogEditorViewport: Clicking on Actor (LMB): Diploma_C (Diploma)
+[2018.10.14-12.58.00:618][662]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.10.14-12.58.02:842][678]LogEditorViewport: Clicking on Actor (LMB): Key_C (Key)
+[2018.10.14-12.58.07:748][717]LogEditorViewport: Clicking on Actor (LMB): Bone_C (Bone)
+[2018.10.14-12.58.15:099][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-12.58.17:010][778]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/worldAE5437C64411EF48333DD28CC1F68DFB.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.10.14-12.58.29:889][874]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.10.14-12.58.42:573][874]LogSlate: Window 'Submit Files' being destroyed
+[2018.10.14-12.58.49:537][874]LogSourceControl: commit successful: [master 622eee4] asdf
+[2018.10.14-12.58.50:042][874]SourceControl: [master 622eee4] asdf
+[2018.10.14-12.58.50:042][874]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2018.10.14-12.58.50:049][874]SourceControl: Commited [master 622eee4] asdf.
+[2018.10.14-13.20.45:892][499]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-13.20.46:874][499]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-13.20.46:876][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-13.20.46:890][499]PIE: New page: PIE session: world (Oct 14, 2018, 5:20:46 AM)
+[2018.10.14-13.20.46:910][499]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.10.14-13.20.47:554][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.642477s)
+[2018.10.14-13.20.47:580][499]LogAIModule: Creating AISystem for world world
+[2018.10.14-13.20.47:589][499]LogPlayLevel: PIE: World Init took: (0.033845s)
+[2018.10.14-13.20.47:589][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.681433s)
+[2018.10.14-13.20.48:142][499]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-13.20.48:887][499]LogInit: FAudioDevice initialized.
+[2018.10.14-13.20.48:971][499]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-13.20.49:018][499]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.10.14-09.20.49
+[2018.10.14-13.20.49:027][499]LogWorld: Bringing up level for play took: 0.052598
+[2018.10.14-13.20.49:138][499]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 3.068
+[2018.10.14-13.20.49:139][499]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-13.20.52:057][532]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-13.20.52:061][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-13.20.52:379][532]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-13.20.52:380][532]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.10.14-13.20.52:692][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-13.20.53:109][533]LogPlayLevel: Display: Destroying online subsystem :Context_222
+[2018.10.14-13.20.53:863][534]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-13.21.00:173][566]LogAIModule: Creating AISystem for world MainMenu
+[2018.10.14-13.21.00:211][566]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/MainMenu.MainMenu
+[2018.10.14-13.21.00:688][566]Cmd: MAP LOAD FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.14-13.21.00:696][566]LightingResults: New page: Lighting Build
+[2018.10.14-13.21.00:711][566]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.10.14-13.21.00:764][566]MapCheck: New page: Map Check
+[2018.10.14-13.21.00:765][566]LightingResults: New page: Lighting Build
+[2018.10.14-13.21.01:916][566]LogEditorServer: Finished looking for orphan Actors (0.002 secs)
+[2018.10.14-13.21.07:342][566]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.14-13.21.09:364][566]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2,021.304ms to complete.
+[2018.10.14-13.21.09:370][566]LogFileHelpers: Loading map 'MainMenu' took 8.995
+[2018.10.14-13.21.11:984][585]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-13.21.12:331][585]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.21.12:332][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-13.21.12:332][585]PIE: New page: PIE session: MainMenu (Oct 14, 2018, 5:21:12 AM)
+[2018.10.14-13.21.12:348][585]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2018.10.14-13.21.12:355][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007860s)
+[2018.10.14-13.21.12:367][585]LogAIModule: Creating AISystem for world MainMenu
+[2018.10.14-13.21.12:368][585]LogPlayLevel: PIE: World Init took: (0.012952s)
+[2018.10.14-13.21.12:369][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.021646s)
+[2018.10.14-13.21.12:991][585]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-13.21.13:526][585]LogInit: FAudioDevice initialized.
+[2018.10.14-13.21.13:611][585]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-13.21.13:613][585]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.10.14-09.21.13
+[2018.10.14-13.21.13:614][585]LogWorld: Bringing up level for play took: 0.001497
+[2018.10.14-13.21.13:654][585]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 1.585
+[2018.10.14-13.21.13:655][585]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.21.16:758][648]LogNet: Browse: /Game/ThirdPersonBP/Maps/world
+[2018.10.14-13.21.16:760][648]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/world
+[2018.10.14-13.21.21:677][648]LogAIModule: Creating AISystem for world world
+[2018.10.14-13.21.21:678][648]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-13.21.21:744][648]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.10.14-09.21.21
+[2018.10.14-13.21.21:745][648]LogWorld: Bringing up level for play took: 0.066052
+[2018.10.14-13.21.21:756][648]LogLoad: Took 4.994977 seconds to LoadMap(/Game/ThirdPersonBP/Maps/world)
+[2018.10.14-13.22.09:286][382]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.22.09:429][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-13.22.11:257][382]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-13.22.11:258][382]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.22.17:971][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-13.22.18:093][383]LogPlayLevel: Display: Destroying online subsystem :Context_223
+[2018.10.14-13.22.36:178][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-13.23.24:370][638]LogEditorViewport: Clicking Background
+[2018.10.14-13.23.26:950][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-13.25.10:074][993]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-13.25.10:469][993]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.25.10:469][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-13.25.10:470][993]PIE: New page: PIE session: MainMenu (Oct 14, 2018, 5:25:10 AM)
+[2018.10.14-13.25.10:477][993]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2018.10.14-13.25.10:485][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008291s)
+[2018.10.14-13.25.10:489][993]LogAIModule: Creating AISystem for world MainMenu
+[2018.10.14-13.25.10:490][993]LogPlayLevel: PIE: World Init took: (0.003669s)
+[2018.10.14-13.25.10:490][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.013079s)
+[2018.10.14-13.25.10:753][993]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-13.25.12:804][993]LogInit: FAudioDevice initialized.
+[2018.10.14-13.25.12:905][993]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-13.25.12:907][993]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.10.14-09.25.12
+[2018.10.14-13.25.12:908][993]LogWorld: Bringing up level for play took: 0.001008
+[2018.10.14-13.25.13:030][993]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 2.961
+[2018.10.14-13.25.13:031][993]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.25.16:721][ 66]LogNet: Browse: /Game/ThirdPersonBP/Maps/world
+[2018.10.14-13.25.16:722][ 66]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/world
+[2018.10.14-13.25.24:122][ 66]LogAIModule: Creating AISystem for world world
+[2018.10.14-13.25.24:123][ 66]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-13.25.24:183][ 66]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.10.14-09.25.24
+[2018.10.14-13.25.24:186][ 66]LogWorld: Bringing up level for play took: 0.061275
+[2018.10.14-13.25.24:194][ 66]LogLoad: Took 7.472375 seconds to LoadMap(/Game/ThirdPersonBP/Maps/world)
+[2018.10.14-13.26.00:048][620]LogDerivedDataCache: Warning: C:/Users/NIriz/AppData/Local/UnrealEngine/Common/DerivedDataCache is very slow (0.17MB/s) when accessing C:/Users/NIriz/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/5/2/TEXTURE_68A083899C6F4316B8CE0E2958EDE2C2_AUTODXT_4D1BBD9440DDAA4A865F899196431__5AD813A90C74005C6CB21899BDA5C5663B4DBAB1.udd, consider disabling it.
+[2018.10.14-13.26.07:866][734]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.26.07:868][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-13.26.08:176][734]LogDerivedDataCache: Warning: C:/Users/NIriz/AppData/Local/UnrealEngine/Common/DerivedDataCache is very slow (0.13MB/s) when accessing C:/Users/NIriz/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/6/TEXTURE_68A083899C6F4316B8CE0E2958EDE2C2_BC5_14B78F4A42DDD45FF1FAAA99B3596D5C___2DE46807408362F018D4AF9DF13E3A4D2522391E.udd, consider disabling it.
+[2018.10.14-13.26.08:941][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-13.26.08:942][734]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.26.09:500][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-13.26.09:758][735]LogPlayLevel: Display: Destroying online subsystem :Context_224
+[2018.10.14-13.26.13:704][736]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-13.31.10:466][561]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-13.31.10:497][561]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.31.10:497][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-13.31.10:497][561]PIE: New page: PIE session: MainMenu (Oct 14, 2018, 5:31:10 AM)
+[2018.10.14-13.31.10:505][561]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2018.10.14-13.31.10:508][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002133s)
+[2018.10.14-13.31.10:508][561]LogAIModule: Creating AISystem for world MainMenu
+[2018.10.14-13.31.10:508][561]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2018.10.14-13.31.10:508][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.003144s)
+[2018.10.14-13.31.10:558][561]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-13.31.10:583][561]LogInit: FAudioDevice initialized.
+[2018.10.14-13.31.10:616][561]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-13.31.10:617][561]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.10.14-09.31.10
+[2018.10.14-13.31.10:617][561]LogWorld: Bringing up level for play took: 0.000475
+[2018.10.14-13.31.10:636][561]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.567
+[2018.10.14-13.31.10:637][561]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.31.13:835][631]LogNet: Browse: /Game/ThirdPersonBP/Maps/world
+[2018.10.14-13.31.13:835][631]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/world
+[2018.10.14-13.31.16:246][631]LogAIModule: Creating AISystem for world world
+[2018.10.14-13.31.16:246][631]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-13.31.16:273][631]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.10.14-09.31.16
+[2018.10.14-13.31.16:275][631]LogWorld: Bringing up level for play took: 0.027577
+[2018.10.14-13.31.16:282][631]LogLoad: Took 2.446586 seconds to LoadMap(/Game/ThirdPersonBP/Maps/world)
+[2018.10.14-13.31.47:369][ 79]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.31.47:371][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-13.31.47:608][ 79]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-13.31.47:609][ 79]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.31.47:780][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-13.31.47:949][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_225
+[2018.10.14-13.31.53:189][112]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-13.34.00:637][522]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-13.34.00:712][522]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.34.00:712][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-13.34.00:713][522]PIE: New page: PIE session: MainMenu (Oct 14, 2018, 5:34:00 AM)
+[2018.10.14-13.34.00:719][522]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2018.10.14-13.34.00:724][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004372s)
+[2018.10.14-13.34.00:726][522]LogAIModule: Creating AISystem for world MainMenu
+[2018.10.14-13.34.00:726][522]LogPlayLevel: PIE: World Init took: (0.002384s)
+[2018.10.14-13.34.00:727][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.007245s)
+[2018.10.14-13.34.00:853][522]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-13.34.00:932][522]LogInit: FAudioDevice initialized.
+[2018.10.14-13.34.00:976][522]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-13.34.00:978][522]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.10.14-09.34.00
+[2018.10.14-13.34.00:979][522]LogWorld: Bringing up level for play took: 0.001175
+[2018.10.14-13.34.01:004][522]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.934
+[2018.10.14-13.34.01:004][522]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.34.04:346][583]LogNet: Browse: /Game/ThirdPersonBP/Maps/world
+[2018.10.14-13.34.04:395][583]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/world
+[2018.10.14-13.34.07:377][583]LogAIModule: Creating AISystem for world world
+[2018.10.14-13.34.07:377][583]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-13.34.07:420][583]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.10.14-09.34.07
+[2018.10.14-13.34.07:421][583]LogWorld: Bringing up level for play took: 0.041807
+[2018.10.14-13.34.07:427][583]LogLoad: Took 3.033009 seconds to LoadMap(/Game/ThirdPersonBP/Maps/world)
+[2018.10.14-13.34.49:161][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.34.49:162][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-13.34.49:277][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-13.34.49:278][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.34.49:558][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-13.34.49:758][184]LogPlayLevel: Display: Destroying online subsystem :Context_226
+[2018.10.14-13.34.54:364][207]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-13.36.54:060][579]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-13.36.54:251][579]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.36.54:251][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-13.36.54:252][579]PIE: New page: PIE session: MainMenu (Oct 14, 2018, 5:36:54 AM)
+[2018.10.14-13.36.54:259][579]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2018.10.14-13.36.54:264][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004840s)
+[2018.10.14-13.36.54:268][579]LogAIModule: Creating AISystem for world MainMenu
+[2018.10.14-13.36.54:268][579]LogPlayLevel: PIE: World Init took: (0.003956s)
+[2018.10.14-13.36.54:268][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.009314s)
+[2018.10.14-13.36.54:417][579]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-13.36.54:506][579]LogInit: FAudioDevice initialized.
+[2018.10.14-13.36.54:552][579]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-13.36.54:555][579]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.10.14-09.36.54
+[2018.10.14-13.36.54:555][579]LogWorld: Bringing up level for play took: 0.001387
+[2018.10.14-13.36.54:580][579]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.511
+[2018.10.14-13.36.54:581][579]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.36.58:231][640]LogNet: Browse: /Game/ThirdPersonBP/Maps/world
+[2018.10.14-13.36.58:232][640]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/world
+[2018.10.14-13.37.01:353][640]LogAIModule: Creating AISystem for world world
+[2018.10.14-13.37.01:353][640]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.14-13.37.01:398][640]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.10.14-09.37.01
+[2018.10.14-13.37.01:399][640]LogWorld: Bringing up level for play took: 0.044094
+[2018.10.14-13.37.01:410][640]LogLoad: Took 3.176881 seconds to LoadMap(/Game/ThirdPersonBP/Maps/world)
+[2018.10.14-13.37.41:641][203]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.37.41:643][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-13.37.41:780][203]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-13.37.41:781][203]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.10.14-13.37.41:954][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-13.37.42:155][204]LogPlayLevel: Display: Destroying online subsystem :Context_227
+[2018.10.14-13.37.50:002][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
