@@ -1,0 +1,549 @@
+﻿Log file open, 10/26/18 13:23:08
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: NewWaldo
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.319577
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.291s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 4600
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.009s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.26-17.23.08:502][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.26-17.23.08:502][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.26-17.23.08:565][  0]LogHAL: Display: Platform has ~ 8 GB [8518656000 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.26-17.23.08:565][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.26-17.23.08:565][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.26-17.23.08:566][  0]LogInit: Computer: SDEMIAN
+[2018.10.26-17.23.08:566][  0]LogInit: User: sandy
+[2018.10.26-17.23.08:566][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.26-17.23.08:566][  0]LogInit: High frequency timer resolution =2.338338 MHz
+[2018.10.26-17.23.08:566][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.10.26-17.23.08:566][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.26-17.23.08:566][  0]LogMemory: Process Physical Memory: 102.00 MB used, 102.00 MB peak
+[2018.10.26-17.23.08:566][  0]LogMemory: Process Virtual Memory: 86.01 MB used, 86.01 MB peak
+[2018.10.26-17.23.08:566][  0]LogMemory: Physical Memory: 4228.98 MB used,  3895.04 MB free, 8124.02 MB total
+[2018.10.26-17.23.08:566][  0]LogMemory: Virtual Memory: 4639.96 MB used,  3895.04 MB free, 134217728.00 MB total
+[2018.10.26-17.23.08:600][  0]LogInit: Using OS detected language (en-US).
+[2018.10.26-17.23.08:601][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.26-17.23.08:602][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.26-17.23.09:022][  0]LogStreaming: Display: Took  0.422s to InitEngineTextLocalization.
+[2018.10.26-17.23.09:022][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.26-17.23.09:080][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.26-17.23.09:080][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.26-17.23.09:329][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.26-17.23.09:329][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.26-17.23.09:338][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.10.26-17.23.09:338][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.10.26-17.23.09:341][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.26-17.23.09:341][  0]LogD3D11RHI:       0/0/4062 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.26-17.23.09:341][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.26-17.23.09:348][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.26-17.23.09:348][  0]LogD3D11RHI:     GPU DeviceId: 0x416 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.26-17.23.09:348][  0]LogWindows: EnumDisplayDevices:
+[2018.10.26-17.23.09:348][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.10.26-17.23.09:349][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.10.26-17.23.09:349][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.10.26-17.23.09:349][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.10.26-17.23.09:349][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4600
+[2018.10.26-17.23.09:349][  0]LogD3D11RHI:   Driver Version: 20.19.15.4835 (internal:20.19.15.4835, unified:20.19.15.4835)
+[2018.10.26-17.23.09:349][  0]LogD3D11RHI:      Driver Date: 10-16-2017
+[2018.10.26-17.23.09:349][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
+[2018.10.26-17.23.09:356][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.26-17.23.09:363][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2018.10.26-17.23.09:364][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/sandy/OneDrive/Documents/Unreal Projects/Waldo/NewWaldo/Intermediate/Shaders/WorkingDirectory/10924/).
+[2018.10.26-17.23.09:364][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sandy/AppData/Local/Temp/UnrealShaderWorkingDir/6253ECAE45857DFC0D95728D5C28E020/'.
+[2018.10.26-17.23.09:810][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.26-17.23.09:826][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.26-17.23.09:844][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.26-17.23.09:860][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.26-17.23.09:879][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.26-17.23.09:896][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.26-17.23.09:913][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.26-17.23.09:930][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.26-17.23.09:939][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.26-17.23.10:028][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:028][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:028][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:028][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:028][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:028][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:028][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:028][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:028][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:029][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:029][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:029][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:029][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:029][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:029][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:029][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:029][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:029][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-17.23.10:030][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.26-17.23.10:105][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.26-17.23.10:105][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.26-17.23.10:199][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.26-17.23.10:199][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.26-17.23.10:220][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.26-17.23.10:237][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.26-17.23.10:251][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.26-17.23.10:266][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.26-17.23.10:277][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.26-17.23.10:277][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.26-17.23.10:369][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.26-17.23.10:369][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.26-17.23.10:369][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.26-17.23.11:668][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.26-17.23.11:765][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/sandy/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.26-17.23.11:766][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/sandy/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.26-17.23.11:766][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sandy/OneDrive/Documents/Unreal Projects/Waldo/NewWaldo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.26-17.23.11:766][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.26-17.23.11:766][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sandy/OneDrive/Documents/Unreal Projects/Waldo/NewWaldo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.26-17.23.11:766][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.26-17.23.11:780][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.26-17.23.11:793][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sandy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.26-17.23.11:793][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.26-17.23.11:793][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.26-17.23.11:814][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.26-17.23.11:815][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.26-17.23.11:816][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.26-17.23.11:952][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2018.10.26-17.23.12:356][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.26-17.23.12:514][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.26-17.23.12:519][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.26-17.23.12:519][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.26-17.23.12:519][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.26-17.23.12:519][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.26-17.23.12:536][  0]LogNetVersion: NewWaldo 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3229626331)
+[2018.10.26-17.23.13:402][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.364324 seconds
+[2018.10.26-17.23.13:417][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.26-17.23.13:418][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.26-17.23.13:418][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.26-17.23.15:120][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.26-17.23.15:134][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.26-17.23.15:365][  0]SourceControl: Source control is disabled
+[2018.10.26-17.23.18:445][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.26-17.23.18:573][  0]LogOcInput: OculusInput pre-init called
+[2018.10.26-17.23.18:731][  0]LogEngine: Initializing Engine...
+[2018.10.26-17.23.18:732][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.26-17.23.18:735][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.26-17.23.18:735][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.26-17.23.18:736][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.26-17.23.18:736][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.26-17.23.19:003][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.26-17.23.19:024][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.26-17.23.19:033][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.26-17.23.19:048][  0]LogInit: FAudioDevice initialized.
+[2018.10.26-17.23.19:049][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.26-17.23.19:232][  0]LogDerivedDataCache: Saved boot cache 0.18s 71MB C:/Users/sandy/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.26-17.23.19:300][  0]LogInit: Texture streaming: Enabled
+[2018.10.26-17.23.19:334][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.26-17.23.19:354][  0]LogInit: Transaction tracking system initialized
+[2018.10.26-17.23.19:391][  0]BlueprintLog: New page: Editor Load
+[2018.10.26-17.23.19:548][  0]LocalizationService: Localization service is disabled
+[2018.10.26-17.23.19:667][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.10.26-17.23.19:667][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.10.26-17.23.19:667][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2018.10.26-17.23.19:941][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.26-17.23.19:941][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.26-17.23.19:941][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.26-17.23.19:942][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.26-17.23.19:942][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.26-17.23.19:942][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.26-17.23.19:942][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.26-17.23.20:107][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sandy/OneDrive/Documents/Unreal Projects/Waldo/NewWaldo/Content/' took 0.05s
+[2018.10.26-17.23.20:107][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sandy/OneDrive/Documents/Unreal Projects/Waldo/NewWaldo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.26-17.23.20:108][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/sandy/OneDrive/Documents/Unreal Projects/Waldo/NewWaldo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.26-17.23.20:108][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.26-17.23.20:207][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 98.993ms to complete.
+[2018.10.26-17.23.20:207][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.100
+[2018.10.26-17.23.20:576][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.26-17.23.20:584][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.26-17.23.20:592][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.26-17.23.20:600][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.26-17.23.20:622][  0]LogCollectionManager: Loaded 0 collections in 0.003309 seconds
+[2018.10.26-17.23.20:698][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sandy/OneDrive/Documents/Unreal Projects/Waldo/NewWaldo/Saved/Collections/' took 0.01s
+[2018.10.26-17.23.20:698][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sandy/OneDrive/Documents/Unreal Projects/Waldo/NewWaldo/Content/Developers/sandy/Collections/' took 0.01s
+[2018.10.26-17.23.20:698][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sandy/OneDrive/Documents/Unreal Projects/Waldo/NewWaldo/Content/Collections/' took 0.01s
+[2018.10.26-17.23.20:698][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.26-17.23.20:717][  0]LogContentBrowser: Native class hierarchy populated in 0.0184 seconds. Added 2572 classes and 603 folders.
+[2018.10.26-17.23.20:767][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.26-17.23.24:166][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.10.26-17.23.24:215][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.10.26-17.23.24:494][  0]LogSlate: Took 0.000763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.26-17.23.24:504][  0]LogSlate: Took 0.000984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.26-17.23.24:542][  0]LogSlate: Took 0.024859 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.26-17.23.24:992][  0]LogRenderer: Reallocating scene render targets to support 796x300 Format 10 NumSamples 1 (Frame:1).
+[2018.10.26-17.23.25:767][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.10.26-17.23.25:767][  0]LogLoad: (Engine Initialization) Total time: 21.23 seconds
+[2018.10.26-17.23.25:767][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.26-17.23.25:843][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.26-17.23.25:913][  0]LogSlate: Took 0.021269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.26-17.23.26:604][  4]LogAssetRegistry: Asset discovery search completed in 14.6746 seconds
+[2018.10.26-17.23.26:611][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.26-17.23.26:611][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000175 seconds (updated 0 objects)
+[2018.10.26-17.24.31:007][201]LogEditorViewport: Clicking Background
+[2018.10.26-17.24.33:089][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.26-17.24.39:956][485]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.26-17.24.39:974][485]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/ThirdPersonBP/Waldo_Correction.Waldo_Correction
+[2018.10.26-17.24.40:850][485]LogSlate: Window 'Message' being destroyed
+[2018.10.26-17.24.41:873][485]SourceControl: Error: fatal: pathspec 'C:/Users/sandy/OneDrive/Documents/Unreal Projects/Waldo/NewWaldo/Content/ThirdPersonBP/Waldo_Correction_Skeleton.uasset' did not match any files
+[2018.10.26-17.24.42:961][485]LogSlate: Window 'Message' being destroyed
+[2018.10.26-17.24.43:935][485]LogSlate: Window 'Message' being destroyed
+[2018.10.26-17.24.43:991][485]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.44:610][501]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.44:627][502]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.44:674][503]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.44:723][504]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.44:785][505]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.44:841][506]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.44:907][507]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.44:963][508]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:021][509]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:080][510]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:138][511]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:198][512]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:255][513]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:314][514]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:372][515]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:431][516]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:489][517]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:548][518]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:606][519]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:665][520]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:724][521]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:782][522]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:843][523]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:901][524]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.45:960][525]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:020][526]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:080][527]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:140][528]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:198][529]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:259][530]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:318][531]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:377][532]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:447][533]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:513][534]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:564][535]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:617][536]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:677][537]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:738][538]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:797][539]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:857][540]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:918][541]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.46:977][542]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.47:035][543]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.47:094][544]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.47:154][545]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.47:215][546]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.47:391][549]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.47:409][550]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.47:425][551]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.47:464][552]LogAnimation: Warning: SkeletalMesh Waldo_Correction has no skeleton. This needs to fixed before an animation can be set
+[2018.10.26-17.24.47:606][553]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/ThirdPersonBP/Waldo_Correction.Waldo_Correction
+[2018.10.26-17.24.49:737][553]LogSlate: Window 'Message' being destroyed
+[2018.10.26-17.24.49:784][553]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2018.10.26-17.24.55:471][553]LogSlate: Window 'Choose Skeleton' being destroyed
+[2018.10.26-17.25.02:132][553]LogSlate: Window 'Merge Bones' being destroyed
+[2018.10.26-17.25.02:203][553]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.10.26-17.25.03:073][553]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.10.26-17.25.03:090][553]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0010 seconds. Added 1 classes and 0 folders.
+[2018.10.26-17.25.03:824][553]LogSlate: Took 0.059257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.26-17.25.03:927][553]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.10.26-17.25.04:000][554]LogRenderer: Reallocating scene render targets to support 796x576 Format 10 NumSamples 1 (Frame:1).
+[2018.10.26-17.25.11:890][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.26-17.25.29:813][410]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/ThirdPersonBP/Weirdo_waldo_Skeleton.Weirdo_waldo_Skeleton
+[2018.10.26-17.25.29:842][410]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.10.26-17.25.36:765][534]LogSlate: Window 'Weirdo_waldo_Skeleton*' being destroyed
+[2018.10.26-17.25.36:826][534]LogSlate: Window 'Weirdo_waldo_Skeleton*' being destroyed
+[2018.10.26-17.28.17:477][  2]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/ThirdPersonBP/Weirdo_waldo.Weirdo_waldo
+[2018.10.26-17.28.17:539][  2]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.10.26-17.33.26:227][866]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_0' took 0.052
+[2018.10.26-17.33.26:230][866]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Waldo_Correction] ([1] browsable assets)...
+[2018.10.26-17.33.26:340][866]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/ThirdPersonBP/Waldo_Correction.Waldo_Correction]
+[2018.10.26-17.33.26:340][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Waldo_Correction]
+[2018.10.26-17.33.26:466][866]LogSavePackage: Moving '../../../../../../Users/sandy/OneDrive/Documents/Unreal Projects/Waldo/NewWaldo/Saved/Waldo_Correction_Auto14492175444AF95C455C67689069A3993.tmp' to '../../../../../../Users/sandy/OneDrive/Documents/Unreal Projects/Waldo/NewWaldo/Saved/Autosaves/Game/ThirdPersonBP/Waldo_Correction_Auto1.uasset'
+[2018.10.26-17.33.26:484][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Weirdo_waldo_Skeleton] ([1] browsable assets)...
+[2018.10.26-17.33.26:484][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Weirdo_waldo_Skeleton]
+[2018.10.26-17.33.26:552][866]LogSavePackage: Moving '../../../../../../Users/sandy/OneDrive/Documents/Unreal Projects/Waldo/NewWaldo/Saved/Weirdo_waldo_Skeleton_Auto1E9BE20C041E53A4B4D0258ABF057FF9C.tmp' to '../../../../../../Users/sandy/OneDrive/Documents/Unreal Projects/Waldo/NewWaldo/Saved/Autosaves/Game/ThirdPersonBP/Weirdo_waldo_Skeleton_Auto1.uasset'
+[2018.10.26-17.33.26:559][866]LogFileHelpers: Auto-saving content packages took 0.331
+[2018.10.26-17.44.16:938][521]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/sandy/Desktop/Start Walking.fbx)
+[2018.10.26-17.44.16:956][521]LogFbx: Loading FBX Scene from ../../../../../../Users/sandy/Desktop/Start Walking.fbx
+[2018.10.26-17.44.16:992][521]LogFbx: FBX Scene Loaded Succesfully
+[2018.10.26-17.46.37:965][521]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.10.26-17.46.38:002][521]LogFbx: =================================================
+[2018.10.26-17.46.38:002][521]LogFbx: Dumping Node START [rdmobj00_Tex_0320_0.d] 
+[2018.10.26-17.46.38:002][521]LogFbx: 	Total Deformer Count -634475488.
+[2018.10.26-17.46.38:002][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:002][521]LogFbx: =================================================
+[2018.10.26-17.46.38:002][521]LogFbx: 	Attribute (rdmobj00_Tex_0320_0.dmesh) Type (4).
+[2018.10.26-17.46.38:003][521]LogFbx: 		[Node Attribute Child 1] rdmobj00_Tex_0320_0.d (Type Mesh).
+[2018.10.26-17.46.38:003][521]LogFbx: Dumping Node END [rdmobj00_Tex_0320_0.d]
+[2018.10.26-17.46.38:003][521]LogFbx: =================================================
+[2018.10.26-17.46.38:003][521]LogFbx: Dumping Node START [rdmobj00_Tex_0320_0.d_rdmobj00_Tex_0320_0.d_Tex_0320_0.dds_Mike_Stewart_head.dds] 
+[2018.10.26-17.46.38:003][521]LogFbx: 	Total Deformer Count -729239296.
+[2018.10.26-17.46.38:003][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:003][521]LogFbx: =================================================
+[2018.10.26-17.46.38:003][521]LogFbx: 	Attribute (rdmobj00_Tex_0320_0.d_rdmobj00_Tex_0320_0.d_Tex_0320_0.dds_Mike_Stewart_head.ddsmesh) Type (4).
+[2018.10.26-17.46.38:003][521]LogFbx: 		[Node Attribute Child 1] rdmobj00_Tex_0320_0.d_rdmobj00_Tex_0320_0.d_Tex_0320_0.dds_Mike_Stewart_head.dds (Type Mesh).
+[2018.10.26-17.46.38:003][521]LogFbx: Dumping Node END [rdmobj00_Tex_0320_0.d_rdmobj00_Tex_0320_0.d_Tex_0320_0.dds_Mike_Stewart_head.dds]
+[2018.10.26-17.46.38:003][521]LogFbx: =================================================
+[2018.10.26-17.46.38:003][521]LogFbx: Dumping Node START [0003_SH_SM_Mike_Stewa] 
+[2018.10.26-17.46.38:003][521]LogFbx: 	Total Deformer Count -634479904.
+[2018.10.26-17.46.38:003][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:003][521]LogFbx: =================================================
+[2018.10.26-17.46.38:003][521]LogFbx: 	Attribute (0003_SH_SM_Mike_Stewamesh) Type (4).
+[2018.10.26-17.46.38:003][521]LogFbx: 		[Node Attribute Child 1] 0003_SH_SM_Mike_Stewa (Type Mesh).
+[2018.10.26-17.46.38:003][521]LogFbx: Dumping Node END [0003_SH_SM_Mike_Stewa]
+[2018.10.26-17.46.38:003][521]LogFbx: =================================================
+[2018.10.26-17.46.38:003][521]LogFbx: Dumping Node START [0003_SH_SM_Mike_Stewa_0003_SH_SM_Mike_Stewa_Tex_0332_0.dds_Mike_Stewart_eyelash.] 
+[2018.10.26-17.46.38:003][521]LogFbx: 	Total Deformer Count -729239296.
+[2018.10.26-17.46.38:003][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:003][521]LogFbx: =================================================
+[2018.10.26-17.46.38:003][521]LogFbx: 	Attribute (0003_SH_SM_Mike_Stewa_0003_SH_SM_Mike_Stewa_Tex_0332_0.dds_Mike_Stewart_eyelash.mesh) Type (4).
+[2018.10.26-17.46.38:003][521]LogFbx: 		[Node Attribute Child 1] 0003_SH_SM_Mike_Stewa_0003_SH_SM_Mike_Stewa_Tex_0332_0.dds_Mike_Stewart_eyelash. (Type Mesh).
+[2018.10.26-17.46.38:003][521]LogFbx: Dumping Node END [0003_SH_SM_Mike_Stewa_0003_SH_SM_Mike_Stewa_Tex_0332_0.dds_Mike_Stewart_eyelash.]
+[2018.10.26-17.46.38:003][521]LogFbx: =================================================
+[2018.10.26-17.46.38:003][521]LogFbx: Dumping Node START [0002_SH_SM_Mike_Stewa] 
+[2018.10.26-17.46.38:003][521]LogFbx: 	Total Deformer Count -634476928.
+[2018.10.26-17.46.38:003][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:003][521]LogFbx: =================================================
+[2018.10.26-17.46.38:003][521]LogFbx: 	Attribute (0002_SH_SM_Mike_Stewamesh) Type (4).
+[2018.10.26-17.46.38:003][521]LogFbx: 		[Node Attribute Child 1] 0002_SH_SM_Mike_Stewa (Type Mesh).
+[2018.10.26-17.46.38:003][521]LogFbx: Dumping Node END [0002_SH_SM_Mike_Stewa]
+[2018.10.26-17.46.38:003][521]LogFbx: =================================================
+[2018.10.26-17.46.38:003][521]LogFbx: Dumping Node START [0002_SH_SM_Mike_Stewa_0002_SH_SM_Mike_Stewa_Tex_0339_0.dds_Mike_Stewart_hair.dds] 
+[2018.10.26-17.46.38:003][521]LogFbx: 	Total Deformer Count -729239296.
+[2018.10.26-17.46.38:003][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:003][521]LogFbx: =================================================
+[2018.10.26-17.46.38:003][521]LogFbx: 	Attribute (0002_SH_SM_Mike_Stewa_0002_SH_SM_Mike_Stewa_Tex_0339_0.dds_Mike_Stewart_hair.ddsmesh) Type (4).
+[2018.10.26-17.46.38:003][521]LogFbx: 		[Node Attribute Child 1] 0002_SH_SM_Mike_Stewa_0002_SH_SM_Mike_Stewa_Tex_0339_0.dds_Mike_Stewart_hair.dds (Type Mesh).
+[2018.10.26-17.46.38:003][521]LogFbx: Dumping Node END [0002_SH_SM_Mike_Stewa_0002_SH_SM_Mike_Stewa_Tex_0339_0.dds_Mike_Stewart_hair.dds]
+[2018.10.26-17.46.38:003][521]LogFbx: =================================================
+[2018.10.26-17.46.38:003][521]LogFbx: Dumping Node START [0001_SH_SM_Mike_Stewa] 
+[2018.10.26-17.46.38:003][521]LogFbx: 	Total Deformer Count -634475392.
+[2018.10.26-17.46.38:004][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:004][521]LogFbx: =================================================
+[2018.10.26-17.46.38:004][521]LogFbx: 	Attribute (0001_SH_SM_Mike_Stewamesh) Type (4).
+[2018.10.26-17.46.38:004][521]LogFbx: 		[Node Attribute Child 1] 0001_SH_SM_Mike_Stewa (Type Mesh).
+[2018.10.26-17.46.38:004][521]LogFbx: Dumping Node END [0001_SH_SM_Mike_Stewa]
+[2018.10.26-17.46.38:004][521]LogFbx: =================================================
+[2018.10.26-17.46.38:004][521]LogFbx: Dumping Node START [0001_SH_SM_Mike_Stewa_0001_SH_SM_Mike_Stewa_Tex_0315_0.dds_Mike_Stewart_body.dds] 
+[2018.10.26-17.46.38:004][521]LogFbx: 	Total Deformer Count -729239296.
+[2018.10.26-17.46.38:004][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:004][521]LogFbx: =================================================
+[2018.10.26-17.46.38:004][521]LogFbx: 	Attribute (0001_SH_SM_Mike_Stewa_0001_SH_SM_Mike_Stewa_Tex_0315_0.dds_Mike_Stewart_body.ddsmesh) Type (4).
+[2018.10.26-17.46.38:004][521]LogFbx: 		[Node Attribute Child 1] 0001_SH_SM_Mike_Stewa_0001_SH_SM_Mike_Stewa_Tex_0315_0.dds_Mike_Stewart_body.dds (Type Mesh).
+[2018.10.26-17.46.38:004][521]LogFbx: Dumping Node END [0001_SH_SM_Mike_Stewa_0001_SH_SM_Mike_Stewa_Tex_0315_0.dds_Mike_Stewart_body.dds]
+[2018.10.26-17.46.38:004][521]LogFbx: =================================================
+[2018.10.26-17.46.38:004][521]LogFbx: Dumping Node START [rdmobj00_Tex_0320_0.d] 
+[2018.10.26-17.46.38:004][521]LogFbx: 	Total Deformer Count -634475008.
+[2018.10.26-17.46.38:004][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:004][521]LogFbx: =================================================
+[2018.10.26-17.46.38:004][521]LogFbx: 	Attribute (rdmobj00_Tex_0320_0.dmesh) Type (4).
+[2018.10.26-17.46.38:004][521]LogFbx: 		[Node Attribute Child 1] rdmobj00_Tex_0320_0.d (Type Mesh).
+[2018.10.26-17.46.38:004][521]LogFbx: Dumping Node END [rdmobj00_Tex_0320_0.d]
+[2018.10.26-17.46.38:004][521]LogFbx: =================================================
+[2018.10.26-17.46.38:004][521]LogFbx: Dumping Node START [rdmobj00_Tex_0320_0.d_rdmobj00_Tex_0320_0.d_Tex_0320_0.dds_Mike_Stewart_head.dds] 
+[2018.10.26-17.46.38:004][521]LogFbx: 	Total Deformer Count -729239296.
+[2018.10.26-17.46.38:004][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:004][521]LogFbx: =================================================
+[2018.10.26-17.46.38:004][521]LogFbx: 	Attribute (rdmobj00_Tex_0320_0.d_rdmobj00_Tex_0320_0.d_Tex_0320_0.dds_Mike_Stewart_head.ddsmesh) Type (4).
+[2018.10.26-17.46.38:004][521]LogFbx: 		[Node Attribute Child 1] rdmobj00_Tex_0320_0.d_rdmobj00_Tex_0320_0.d_Tex_0320_0.dds_Mike_Stewart_head.dds (Type Mesh).
+[2018.10.26-17.46.38:004][521]LogFbx: Dumping Node END [rdmobj00_Tex_0320_0.d_rdmobj00_Tex_0320_0.d_Tex_0320_0.dds_Mike_Stewart_head.dds]
+[2018.10.26-17.46.38:004][521]LogFbx: =================================================
+[2018.10.26-17.46.38:004][521]LogFbx: Dumping Node START [0003_SH_SM_Mike_Stewa] 
+[2018.10.26-17.46.38:004][521]LogFbx: 	Total Deformer Count -634486336.
+[2018.10.26-17.46.38:004][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:005][521]LogFbx: =================================================
+[2018.10.26-17.46.38:005][521]LogFbx: 	Attribute (0003_SH_SM_Mike_Stewamesh) Type (4).
+[2018.10.26-17.46.38:005][521]LogFbx: 		[Node Attribute Child 1] 0003_SH_SM_Mike_Stewa (Type Mesh).
+[2018.10.26-17.46.38:005][521]LogFbx: Dumping Node END [0003_SH_SM_Mike_Stewa]
+[2018.10.26-17.46.38:005][521]LogFbx: =================================================
+[2018.10.26-17.46.38:005][521]LogFbx: Dumping Node START [0003_SH_SM_Mike_Stewa_0003_SH_SM_Mike_Stewa_Tex_0332_0.dds_Mike_Stewart_eyelash.] 
+[2018.10.26-17.46.38:005][521]LogFbx: 	Total Deformer Count -729239296.
+[2018.10.26-17.46.38:005][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:005][521]LogFbx: =================================================
+[2018.10.26-17.46.38:005][521]LogFbx: 	Attribute (0003_SH_SM_Mike_Stewa_0003_SH_SM_Mike_Stewa_Tex_0332_0.dds_Mike_Stewart_eyelash.mesh) Type (4).
+[2018.10.26-17.46.38:005][521]LogFbx: 		[Node Attribute Child 1] 0003_SH_SM_Mike_Stewa_0003_SH_SM_Mike_Stewa_Tex_0332_0.dds_Mike_Stewart_eyelash. (Type Mesh).
+[2018.10.26-17.46.38:005][521]LogFbx: Dumping Node END [0003_SH_SM_Mike_Stewa_0003_SH_SM_Mike_Stewa_Tex_0332_0.dds_Mike_Stewart_eyelash.]
+[2018.10.26-17.46.38:005][521]LogFbx: =================================================
+[2018.10.26-17.46.38:005][521]LogFbx: Dumping Node START [0002_SH_SM_Mike_Stewa] 
+[2018.10.26-17.46.38:005][521]LogFbx: 	Total Deformer Count -634470880.
+[2018.10.26-17.46.38:005][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:005][521]LogFbx: =================================================
+[2018.10.26-17.46.38:005][521]LogFbx: 	Attribute (0002_SH_SM_Mike_Stewamesh) Type (4).
+[2018.10.26-17.46.38:005][521]LogFbx: 		[Node Attribute Child 1] 0002_SH_SM_Mike_Stewa (Type Mesh).
+[2018.10.26-17.46.38:005][521]LogFbx: Dumping Node END [0002_SH_SM_Mike_Stewa]
+[2018.10.26-17.46.38:005][521]LogFbx: =================================================
+[2018.10.26-17.46.38:005][521]LogFbx: Dumping Node START [0002_SH_SM_Mike_Stewa_0002_SH_SM_Mike_Stewa_Tex_0339_0.dds_Mike_Stewart_hair.dds] 
+[2018.10.26-17.46.38:005][521]LogFbx: 	Total Deformer Count -729239296.
+[2018.10.26-17.46.38:005][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:005][521]LogFbx: =================================================
+[2018.10.26-17.46.38:005][521]LogFbx: 	Attribute (0002_SH_SM_Mike_Stewa_0002_SH_SM_Mike_Stewa_Tex_0339_0.dds_Mike_Stewart_hair.ddsmesh) Type (4).
+[2018.10.26-17.46.38:005][521]LogFbx: 		[Node Attribute Child 1] 0002_SH_SM_Mike_Stewa_0002_SH_SM_Mike_Stewa_Tex_0339_0.dds_Mike_Stewart_hair.dds (Type Mesh).
+[2018.10.26-17.46.38:005][521]LogFbx: Dumping Node END [0002_SH_SM_Mike_Stewa_0002_SH_SM_Mike_Stewa_Tex_0339_0.dds_Mike_Stewart_hair.dds]
+[2018.10.26-17.46.38:005][521]LogFbx: =================================================
+[2018.10.26-17.46.38:005][521]LogFbx: Dumping Node START [0001_SH_SM_Mike_Stewa] 
+[2018.10.26-17.46.38:005][521]LogFbx: 	Total Deformer Count -634484512.
+[2018.10.26-17.46.38:005][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:005][521]LogFbx: =================================================
+[2018.10.26-17.46.38:005][521]LogFbx: 	Attribute (0001_SH_SM_Mike_Stewamesh) Type (4).
+[2018.10.26-17.46.38:005][521]LogFbx: 		[Node Attribute Child 1] 0001_SH_SM_Mike_Stewa (Type Mesh).
+[2018.10.26-17.46.38:005][521]LogFbx: Dumping Node END [0001_SH_SM_Mike_Stewa]
+[2018.10.26-17.46.38:005][521]LogFbx: =================================================
+[2018.10.26-17.46.38:005][521]LogFbx: Dumping Node START [0001_SH_SM_Mike_Stewa_0001_SH_SM_Mike_Stewa_Tex_0315_0.dds_Mike_Stewart_body.dds] 
+[2018.10.26-17.46.38:005][521]LogFbx: 	Total Deformer Count -729239296.
+[2018.10.26-17.46.38:005][521]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.10.26-17.46.38:005][521]LogFbx: =================================================
+[2018.10.26-17.46.38:005][521]LogFbx: 	Attribute (0001_SH_SM_Mike_Stewa_0001_SH_SM_Mike_Stewa_Tex_0315_0.dds_Mike_Stewart_body.ddsmesh) Type (4).
+[2018.10.26-17.46.38:005][521]LogFbx: 		[Node Attribute Child 1] 0001_SH_SM_Mike_Stewa_0001_SH_SM_Mike_Stewa_Tex_0315_0.dds_Mike_Stewart_body.dds (Type Mesh).
+[2018.10.26-17.46.38:006][521]LogFbx: Dumping Node END [0001_SH_SM_Mike_Stewa_0001_SH_SM_Mike_Stewa_Tex_0315_0.dds_Mike_Stewart_body.dds]
+[2018.10.26-17.46.38:008][521]LogFbx: Valid bind pose for Pose (BindPose) - rdmobj00_Tex_0320_0.d_rdmobj00_Tex_0320_0.d_Tex_0320_0.dds_Mike_Stewart_head.dds
+[2018.10.26-17.46.38:023][521]LogFbx: Warning: Bones digested - 65  Depth of hierarchy - 12
+[2018.10.26-17.46.38:141][521]LogSkeletalMesh: Section 0: 3666 vertices, 52 active bones
+[2018.10.26-17.46.38:141][521]LogSkeletalMesh: Section 0: Material=0, 5524 triangles
+[2018.10.26-17.46.38:142][521]LogSkeletalMesh: Building Skeletal Mesh Start_Walking...
