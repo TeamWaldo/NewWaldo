@@ -1412,3 +1412,23 @@ LogInit: Object subsystem initialized
 [2018.11.11-17.24.11:650][751]SourceControl: [master 8d39ff7] door openning
 [2018.11.11-17.24.11:650][751]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
 [2018.11.11-17.24.11:661][751]SourceControl: Commited [master 8d39ff7] door openning.
+[2018.11.11-17.30.39:124][291]BlueprintLog: New page: Compile door
+[2018.11.11-17.30.40:100][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/door" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset" SILENT=true
+[2018.11.11-17.30.40:176][300]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/doorB92062FF45EC037B8FE37FB110B4A4C8.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset'
+[2018.11.11-17.30.57:664][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/door" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset" SILENT=true
+[2018.11.11-17.30.57:740][ 52]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/doorECBC37DB4484367ED704918E2CF69B46.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset'
+[2018.11.11-17.30.58:736][ 96]BlueprintLog: New page: Compile door
+[2018.11.11-17.31.00:559][134]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.11-17.31.04:961][151]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/worldE3240C234375E0996401EEB6E0180AFA.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.11-17.31.09:114][151]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/world_BuiltData593B59A340AD2C24612CB3B5D79AEA15.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset'
+[2018.11.11-17.31.38:494][838]LogTexture: Display: Building textures: jail (AutoDXT, 600X600)
+[2018.11.11-17.31.38:504][838]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/Win.Win
+[2018.11.11-17.31.58:710][530]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/Lose.Lose
+[2018.11.11-17.32.17:197][307]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-17.32.31:511][673]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Waldo/Waldo_AI.Waldo_AI
+[2018.11.11-17.45.52:113][280]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.11-17.45.57:148][280]LogSlate: Window 'Submit Files' being destroyed
+[2018.11.11-17.46.06:251][280]LogSourceControl: commit successful: [master d333022] asdf
+[2018.11.11-17.46.06:420][280]SourceControl: [master d333022] asdf
+[2018.11.11-17.46.06:420][280]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2018.11.11-17.46.06:427][280]SourceControl: Commited [master d333022] asdf.
