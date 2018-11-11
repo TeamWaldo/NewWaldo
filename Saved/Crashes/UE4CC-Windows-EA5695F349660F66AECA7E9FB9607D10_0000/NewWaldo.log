@@ -1,0 +1,584 @@
+﻿Log file open, 11/11/18 08:10:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: NewWaldo
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.313598
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.365s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.015s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.11-13.10.47:625][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.11-13.10.47:626][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.11-13.10.47:682][  0]LogHAL: Display: Platform has ~ 8 GB [8511496192 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.11-13.10.47:683][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.11-13.10.47:683][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.11-13.10.47:685][  0]LogInit: Computer: DESKTOP-2JCFOSA
+[2018.11.11-13.10.47:685][  0]LogInit: User: NIriz
+[2018.11.11-13.10.47:685][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.11.11-13.10.47:685][  0]LogInit: High frequency timer resolution =2.648442 MHz
+[2018.11.11-13.10.47:686][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.11.11-13.10.47:686][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.11-13.10.47:686][  0]LogMemory: Process Physical Memory: 101.12 MB used, 101.12 MB peak
+[2018.11.11-13.10.47:686][  0]LogMemory: Process Virtual Memory: 92.17 MB used, 92.17 MB peak
+[2018.11.11-13.10.47:686][  0]LogMemory: Physical Memory: 3961.95 MB used,  4155.25 MB free, 8117.20 MB total
+[2018.11.11-13.10.47:686][  0]LogMemory: Virtual Memory: 4614.87 MB used,  4155.25 MB free, 134217728.00 MB total
+[2018.11.11-13.10.47:788][  0]LogInit: Using OS detected language (en-US).
+[2018.11.11-13.10.47:788][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.11-13.10.47:792][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.11-13.10.48:627][  0]LogStreaming: Display: Took  0.839s to InitEngineTextLocalization.
+[2018.11.11-13.10.48:681][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.11-13.10.48:777][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.11-13.10.48:777][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.11-13.10.49:939][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.11-13.10.49:939][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.11-13.10.50:030][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.11.11-13.10.50:030][  0]LogD3D11RHI:       128/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.11.11-13.10.50:036][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.11-13.10.50:036][  0]LogD3D11RHI:       0/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.11-13.10.50:036][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.11-13.10.50:044][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.11-13.10.50:045][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.11-13.10.50:045][  0]LogWindows: EnumDisplayDevices:
+[2018.11.11-13.10.50:045][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.11.11-13.10.50:046][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.11.11-13.10.50:046][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.11.11-13.10.50:047][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.11.11-13.10.50:047][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.11.11-13.10.50:047][  0]LogD3D11RHI:   Driver Version: 24.20.100.6136 (internal:24.20.100.6136, unified:24.20.100.6136)
+[2018.11.11-13.10.50:047][  0]LogD3D11RHI:      Driver Date: 5-25-2018
+[2018.11.11-13.10.50:047][  0]LogRHI: Texture pool is 1510 MB (70% of 2157 MB)
+[2018.11.11-13.10.50:112][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.11-13.10.50:140][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2018.11.11-13.10.50:147][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Intermediate/Shaders/WorkingDirectory/11436/).
+[2018.11.11-13.10.50:147][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NIriz/AppData/Local/Temp/UnrealShaderWorkingDir/798E18914851617D6646ADA8EC1BA8A1/'.
+[2018.11.11-13.10.50:808][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.11-13.10.50:834][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.11-13.10.50:859][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.11-13.10.50:883][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.11-13.10.50:911][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.11-13.10.50:936][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.11-13.10.50:968][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.11-13.10.50:996][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.11-13.10.51:008][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:180][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.11-13.10.51:183][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.11-13.10.51:268][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.11-13.10.51:268][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.11-13.10.51:322][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.11-13.10.51:322][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.11-13.10.51:359][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.11-13.10.51:398][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.11-13.10.51:439][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.11-13.10.51:487][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.11-13.10.51:516][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.11-13.10.51:516][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.11-13.10.51:728][  0]LogXGEController: Cleaning working directory: C:/Users/NIriz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.11-13.10.51:729][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.11-13.10.51:729][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.11-13.10.51:729][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.11-13.10.53:865][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.11-13.10.54:530][  0]LogDerivedDataCache: Loaded boot cache 0.66s 71MB C:/Users/NIriz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.11-13.10.54:532][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/NIriz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.11-13.10.54:532][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.11-13.10.54:532][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.11-13.10.54:532][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.11-13.10.54:532][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.11-13.10.54:570][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.11-13.10.54:583][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NIriz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.11-13.10.54:583][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.11-13.10.54:583][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.11-13.10.54:637][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.11-13.10.54:642][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.11-13.10.54:645][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.11-13.10.54:811][  0]LogAssetRegistry: FAssetRegistry took 0.0331 seconds to start up
+[2018.11.11-13.10.55:995][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.11-13.10.56:359][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.11-13.10.56:384][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.11-13.10.56:385][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.11-13.10.56:386][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.11-13.10.56:386][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.11-13.10.56:421][  0]LogNetVersion: NewWaldo 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3229626331)
+[2018.11.11-13.10.57:872][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.302186 seconds
+[2018.11.11-13.10.57:890][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.11-13.10.57:890][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.11-13.10.57:890][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.11-13.11.01:385][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.11-13.11.01:401][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.11-13.11.01:736][  0]SourceControl: Source control is disabled
+[2018.11.11-13.11.02:919][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.11-13.11.03:047][  0]LogOcInput: OculusInput pre-init called
+[2018.11.11-13.11.03:203][  0]LogEngine: Initializing Engine...
+[2018.11.11-13.11.03:208][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.11-13.11.03:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.11-13.11.03:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.11-13.11.03:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.11-13.11.03:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.11-13.11.03:696][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.11-13.11.03:735][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.11-13.11.03:757][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.11-13.11.04:007][  0]LogInit: FAudioDevice initialized.
+[2018.11.11-13.11.04:008][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.11-13.11.04:108][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/NIriz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.11-13.11.04:109][  0]LogInit: Texture streaming: Enabled
+[2018.11.11-13.11.04:150][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.11-13.11.04:151][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={A3CA6BA8-4FB6-3574-01F9-619EADEB995D}
+[2018.11.11-13.11.04:181][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.11-13.11.04:255][  0]LogInit: Transaction tracking system initialized
+[2018.11.11-13.11.04:341][  0]BlueprintLog: New page: Editor Load
+[2018.11.11-13.11.04:623][  0]LocalizationService: Localization service is disabled
+[2018.11.11-13.11.04:741][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.11.11-13.11.04:742][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.11.11-13.11.04:742][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2018.11.11-13.11.05:806][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.11-13.11.05:806][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.11-13.11.05:807][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.11-13.11.05:808][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.11-13.11.05:808][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.11-13.11.05:808][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.11-13.11.05:808][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.11-13.11.06:795][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/' took 0.07s
+[2018.11.11-13.11.06:937][  0]LogSlate: Took 0.000437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.11-13.11.11:924][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.11.11-13.11.11:925][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.11-13.11.11:961][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.11-13.11.12:117][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.11-13.11.12:191][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.11-13.11.12:195][  0]Cmd: MAP LOAD FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.11-13.11.12:196][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.11-13.11.12:197][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.11-13.11.12:381][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 183.159ms to complete.
+[2018.11.11-13.11.12:381][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.185
+[2018.11.11-13.11.12:466][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-13.11.12:483][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-13.11.12:498][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-13.11.12:515][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-13.11.12:538][  0]LogCollectionManager: Loaded 0 collections in 0.005879 seconds
+[2018.11.11-13.11.12:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Collections/' took 0.01s
+[2018.11.11-13.11.12:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/Developers/NIriz/Collections/' took 0.01s
+[2018.11.11-13.11.12:598][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/Collections/' took 0.01s
+[2018.11.11-13.11.12:598][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.11-13.11.12:626][  0]LogContentBrowser: Native class hierarchy populated in 0.0278 seconds. Added 2572 classes and 603 folders.
+[2018.11.11-13.11.12:683][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.11.11-13.11.13:012][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.11-13.11.13:025][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.11.11-13.11.13:203][  0]LogSlate: Took 0.000611 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.11-13.11.13:225][  0]LogSlate: Took 0.009773 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.11-13.11.13:379][  0]LogRenderer: Reallocating scene render targets to support 800x444 Format 9 NumSamples 1 (Frame:1).
+[2018.11.11-13.11.13:860][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.11.11-13.11.13:861][  0]LogLoad: (Engine Initialization) Total time: 34.59 seconds
+[2018.11.11-13.11.13:861][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.11-13.11.13:933][  0]LogContentStreaming: Texture pool size now 600 MB
+[2018.11.11-13.11.15:194][ 13]LogAssetRegistry: Asset discovery search completed in 20.4052 seconds
+[2018.11.11-13.11.15:202][ 13]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.11.11-13.11.15:202][ 13]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000364 seconds (updated 0 objects)
+[2018.11.11-13.11.16:324][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.11.21:485][195]LogSlate: Took 0.027284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.11-13.11.34:312][195]LogAIModule: Creating AISystem for world world
+[2018.11.11-13.11.34:609][195]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/world.world
+[2018.11.11-13.11.34:682][195]Cmd: MAP LOAD FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.11-13.11.34:682][195]LightingResults: New page: Lighting Build
+[2018.11.11-13.11.34:692][195]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0007 seconds. Added 5 classes and 0 folders.
+[2018.11.11-13.11.34:694][195]LoadErrors: New page: Loading map: world.umap
+[2018.11.11-13.11.34:695][195]MapCheck: New page: Map Check
+[2018.11.11-13.11.34:695][195]LightingResults: New page: Lighting Build
+[2018.11.11-13.11.36:181][195]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.11-13.11.36:440][195]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.11-13.11.37:035][195]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 594.162ms to complete.
+[2018.11.11-13.11.37:041][195]LogFileHelpers: Loading map 'world' took 2.360
+[2018.11.11-13.11.53:764][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.12.23:049][855]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.12.23:961][883]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.12.24:297][883]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.12.27:668][883]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/world43BAA6514F099B610FEF1CB1769D58F1.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.11-13.12.27:849][883]LogFileHelpers: Saving map 'world' took 3.515
+[2018.11.11-13.12.29:955][911]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.12.40:480][ 74]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.11-13.12.41:521][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.12.48:863][ 74]LogSlate: Window 'Submit Files' being destroyed
+[2018.11.11-13.12.48:875][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.12.49:030][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.12.55:995][ 74]LogSourceControl: commit successful: [master ec9ea5c] blocking boandaries
+[2018.11.11-13.12.56:115][ 74]SourceControl: [master ec9ea5c] blocking boandaries
+[2018.11.11-13.12.56:115][ 74]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2018.11.11-13.12.56:131][ 74]SourceControl: Commited [master ec9ea5c] blocking boandaries.
+[2018.11.11-13.12.58:088][103]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.13.45:526][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.13.55:983][852]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.14.10:945][222]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.11-13.14.16:250][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.14.17:635][280]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.14.19:434][280]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/world40C60AA545AD3AB54E899D892FAA168A.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.11-13.14.25:121][280]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/world_BuiltData43BEFB6D462D5057DFEE59B803D5A4A5.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset'
+[2018.11.11-13.14.32:511][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.14.38:816][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.14.47:470][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.14.54:672][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.15.01:949][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.15.14:630][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.15.25:906][336]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.15.32:706][466]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.15.46:769][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fence_C_Long159)
+[2018.11.11-13.15.51:779][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fence_C_Long160)
+[2018.11.11-13.15.52:877][891]Cmd: DELETE
+[2018.11.11-13.15.52:877][891]Cmd: ACTOR DELETE
+[2018.11.11-13.15.52:985][891]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.11-13.15.53:035][891]LogEditorActor: Deleted 1 Actors (0.141 secs)
+[2018.11.11-13.15.54:045][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fence_C_Long159)
+[2018.11.11-13.15.54:626][926]Cmd: DELETE
+[2018.11.11-13.15.54:626][926]Cmd: ACTOR DELETE
+[2018.11.11-13.15.54:691][926]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.11-13.15.54:755][926]LogEditorActor: Deleted 1 Actors (0.129 secs)
+[2018.11.11-13.15.58:878][ 24]LogEditorViewport: Clicking Background
+[2018.11.11-13.16.00:032][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fence_C_Long161)
+[2018.11.11-13.16.01:966][ 95]LogEditorViewport: Clicking Background
+[2018.11.11-13.16.07:776][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.16.11:822][335]LogEditorViewport: Clicking Background
+[2018.11.11-13.16.13:098][365]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fence_C_Long161)
+[2018.11.11-13.16.21:798][575]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.16.25:178][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ferriswheel)
+[2018.11.11-13.16.30:059][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.16.52:372][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ferriswheel)
+[2018.11.11-13.16.57:938][504]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.17.21:829][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.17.29:092][135]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/worldB3F2B4C74483884AF3C7BE87DBA84E30.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.11-13.17.29:151][135]LogFileHelpers: Saving map 'world' took 1.895
+[2018.11.11-13.18.09:128][903]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.18.25:018][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fence_C_Long165)
+[2018.11.11-13.18.27:242][359]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.18.36:711][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Castle)
+[2018.11.11-13.18.49:259][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Castle)
+[2018.11.11-13.18.50:903][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Castle)
+[2018.11.11-13.19.01:398][232]Cmd: TRANSACTION UNDO
+[2018.11.11-13.19.01:419][232]LogEditorTransaction: Undo Move Actors
+[2018.11.11-13.19.05:040][327]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2018.11.11-13.19.09:483][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.19.14:324][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.19.20:448][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.19.25:097][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.19.50:543][971]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.20.02:521][170]Cmd: TRANSACTION UNDO
+[2018.11.11-13.20.02:521][170]LogEditorTransaction: Undo Scale Actors
+[2018.11.11-13.20.16:558][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.20.39:164][841]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fence_C_Long174)
+[2018.11.11-13.20.40:136][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fence_C_Long175)
+[2018.11.11-13.20.41:424][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.20.44:333][924]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.11.11-13.20.51:421][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.21.06:774][345]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.21.36:593][872]LogEditorViewport: Clicking Background
+[2018.11.11-13.21.40:922][987]LogEditorViewport: Clicking Background
+[2018.11.11-13.21.47:702][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.21.54:589][445]EditorErrors: New page: Actor attachment
+[2018.11.11-13.22.10:671][957]LogEditorViewport: Clicking Background
+[2018.11.11-13.22.15:821][113]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.22.18:917][231]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.11.11-13.22.27:977][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.22.28:072][400]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.11-13.22.28:135][400]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.22.28:138][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.11-13.22.28:172][400]PIE: New page: PIE session: world (Nov 11, 2018, 3:22:28 AM)
+[2018.11.11-13.22.28:173][400]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.11.11-13.22.28:342][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.168010s)
+[2018.11.11-13.22.28:348][400]LogAIModule: Creating AISystem for world world
+[2018.11.11-13.22.28:351][400]LogPlayLevel: PIE: World Init took: (0.008959s)
+[2018.11.11-13.22.28:352][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.178360s)
+[2018.11.11-13.22.28:463][400]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.11-13.22.28:507][400]LogInit: FAudioDevice initialized.
+[2018.11.11-13.22.28:574][400]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.11-13.22.28:655][400]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.11.11-08.22.28
+[2018.11.11-13.22.28:696][400]LogWorld: Bringing up level for play took: 0.104695
+[2018.11.11-13.22.28:780][400]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0018 seconds. Added 10 classes and 0 folders.
+[2018.11.11-13.22.28:800][400]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=6583.878 Y=4340.374 Z=178.000] for [Bino_C]
+[2018.11.11-13.22.28:801][400]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=6357.925 Y=-1438.400 Z=178.000] for [Bone_C]
+[2018.11.11-13.22.28:802][400]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=3173.419 Y=-324.259 Z=178.000] for [Key_C]
+[2018.11.11-13.22.28:803][400]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=4668.396 Y=-3932.570 Z=178.000] for [Camera_C]
+[2018.11.11-13.22.28:804][400]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8833.398 Y=3174.501 Z=178.000] for [Diploma_C]
+[2018.11.11-13.22.28:844][400]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 1.465
+[2018.11.11-13.22.28:844][400]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.22.29:178][401]LogCharacterMovement: Woman2_AI7_17 is stuck and failed to move! Velocity: X=-197.24 Y=55.14 Z=0.00 Location: X=7569.99 Y=-6054.21 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.793 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (0 other events since notify)
+[2018.11.11-13.22.29:272][403]LogCharacterMovement: Woman1_AI9_23 is stuck and failed to move! Velocity: X=-97.62 Y=163.54 Z=0.00 Location: X=3830.00 Y=-6054.17 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.827 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (0 other events since notify)
+[2018.11.11-13.22.29:274][403]LogCharacterMovement: Man1_AI5_11 is stuck and failed to move! Velocity: X=-42.21 Y=186.79 Z=0.00 Location: X=8430.00 Y=-6054.17 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.829 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (0 other events since notify)
+[2018.11.11-13.22.29:409][407]LogCharacterMovement: Woman1_AI3_5 is stuck and failed to move! Velocity: X=8.75 Y=236.59 Z=0.00 Location: X=3330.00 Y=-6054.18 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.821 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (0 other events since notify)
+[2018.11.11-13.22.30:217][428]LogCharacterMovement: Woman2_AI7_17 is stuck and failed to move! Velocity: X=-203.05 Y=56.88 Z=0.00 Location: X=7569.99 Y=-6054.21 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.791 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (28 other events since notify)
+[2018.11.11-13.22.30:300][430]LogCharacterMovement: Woman1_AI9_23 is stuck and failed to move! Velocity: X=-116.03 Y=199.21 Z=0.00 Location: X=3830.00 Y=-6054.19 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.806 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (26 other events since notify)
+[2018.11.11-13.22.30:302][430]LogCharacterMovement: Man1_AI5_11 is stuck and failed to move! Velocity: X=-57.14 Y=263.42 Z=0.00 Location: X=8430.00 Y=-6054.19 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.812 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (26 other events since notify)
+[2018.11.11-13.22.30:423][433]LogCharacterMovement: Woman1_AI3_5 is stuck and failed to move! Velocity: X=8.75 Y=236.59 Z=0.00 Location: X=3330.00 Y=-6054.18 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.819 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (25 other events since notify)
+[2018.11.11-13.22.31:243][453]LogCharacterMovement: Woman2_AI7_17 is stuck and failed to move! Velocity: X=-203.05 Y=56.88 Z=0.00 Location: X=7569.99 Y=-6054.21 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.791 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (24 other events since notify)
+[2018.11.11-13.22.31:328][455]LogCharacterMovement: Woman1_AI9_23 is stuck and failed to move! Velocity: X=-116.03 Y=199.21 Z=0.00 Location: X=3830.00 Y=-6054.20 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.804 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (24 other events since notify)
+[2018.11.11-13.22.31:331][455]LogCharacterMovement: Man1_AI5_11 is stuck and failed to move! Velocity: X=-57.14 Y=263.42 Z=0.00 Location: X=8430.00 Y=-6054.19 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.812 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (24 other events since notify)
+[2018.11.11-13.22.31:445][458]LogCharacterMovement: Woman1_AI3_5 is stuck and failed to move! Velocity: X=8.75 Y=236.59 Z=0.00 Location: X=3330.00 Y=-6054.18 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.818 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (24 other events since notify)
+[2018.11.11-13.22.32:040][472]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.22.32:041][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-13.22.32:112][472]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.11-13.22.32:113][472]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.22.32:168][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-13.22.32:227][473]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.11.11-13.22.33:831][508]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.11.11-13.22.38:310][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.22.38:398][607]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.11-13.22.38:469][607]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.22.38:469][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.11-13.22.38:470][607]PIE: New page: PIE session: world (Nov 11, 2018, 3:22:38 AM)
+[2018.11.11-13.22.38:470][607]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.11.11-13.22.38:664][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.193197s)
+[2018.11.11-13.22.38:665][607]LogAIModule: Creating AISystem for world world
+[2018.11.11-13.22.38:665][607]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2018.11.11-13.22.38:665][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.194710s)
+[2018.11.11-13.22.38:710][607]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.11-13.22.38:743][607]LogInit: FAudioDevice initialized.
+[2018.11.11-13.22.38:779][607]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.11-13.22.38:835][607]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.11.11-08.22.38
+[2018.11.11-13.22.38:846][607]LogWorld: Bringing up level for play took: 0.066099
+[2018.11.11-13.22.38:862][607]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=3691.313 Y=-1384.005 Z=178.000] for [Bino_C]
+[2018.11.11-13.22.38:863][607]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=5663.455 Y=-4744.687 Z=178.000] for [Bone_C]
+[2018.11.11-13.22.38:864][607]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=5876.210 Y=-4964.928 Z=178.000] for [Key_C]
+[2018.11.11-13.22.38:864][607]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=4766.014 Y=-2452.881 Z=178.000] for [Camera_C]
+[2018.11.11-13.22.38:866][607]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=4538.468 Y=-933.252 Z=178.000] for [Diploma_C]
+[2018.11.11-13.22.38:869][607]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world -0.51
+[2018.11.11-13.22.38:869][607]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.22.39:393][613]LogCharacterMovement: Woman1_AI9_23 is stuck and failed to move! Velocity: X=196.65 Y=54.43 Z=0.00 Location: X=3830.01 Y=-6054.19 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.806 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (0 other events since notify)
+[2018.11.11-13.22.39:395][613]LogCharacterMovement: Man1_AI5_11 is stuck and failed to move! Velocity: X=-90.11 Y=185.96 Z=0.00 Location: X=8430.00 Y=-6054.18 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.824 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (0 other events since notify)
+[2018.11.11-13.22.39:465][615]LogCharacterMovement: Woman1_AI3_5 is stuck and failed to move! Velocity: X=-27.73 Y=242.99 Z=0.00 Location: X=3330.00 Y=-6054.18 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.820 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (0 other events since notify)
+[2018.11.11-13.22.40:413][639]LogCharacterMovement: Woman1_AI9_23 is stuck and failed to move! Velocity: X=259.49 Y=76.69 Z=0.00 Location: X=3830.01 Y=-6054.22 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.781 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (25 other events since notify)
+[2018.11.11-13.22.40:415][639]LogCharacterMovement: Man1_AI5_11 is stuck and failed to move! Velocity: X=-110.60 Y=233.44 Z=0.00 Location: X=8430.00 Y=-6054.19 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.806 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (25 other events since notify)
+[2018.11.11-13.22.40:489][641]LogCharacterMovement: Woman1_AI3_5 is stuck and failed to move! Velocity: X=-27.73 Y=242.99 Z=0.00 Location: X=3330.00 Y=-6054.18 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.818 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (25 other events since notify)
+[2018.11.11-13.22.41:435][668]LogCharacterMovement: Woman1_AI9_23 is stuck and failed to move! Velocity: X=259.49 Y=76.69 Z=0.00 Location: X=3830.01 Y=-6054.22 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.780 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (28 other events since notify)
+[2018.11.11-13.22.41:439][668]LogCharacterMovement: Man1_AI5_11 is stuck and failed to move! Velocity: X=-110.60 Y=233.44 Z=0.00 Location: X=8430.00 Y=-6054.19 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.805 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (28 other events since notify)
+[2018.11.11-13.22.41:499][670]LogCharacterMovement: Woman1_AI3_5 is stuck and failed to move! Velocity: X=-27.73 Y=242.99 Z=0.00 Location: X=3330.00 Y=-6054.18 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.818 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (28 other events since notify)
+[2018.11.11-13.22.42:473][695]LogCharacterMovement: Woman1_AI9_23 is stuck and failed to move! Velocity: X=259.49 Y=76.69 Z=0.00 Location: X=3830.01 Y=-6054.22 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.779 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (26 other events since notify)
+[2018.11.11-13.22.42:476][695]LogCharacterMovement: Man1_AI5_11 is stuck and failed to move! Velocity: X=-110.60 Y=233.44 Z=0.00 Location: X=8430.00 Y=-6054.20 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.805 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (26 other events since notify)
+[2018.11.11-13.22.42:506][696]LogCharacterMovement: Woman1_AI3_5 is stuck and failed to move! Velocity: X=-27.73 Y=242.99 Z=0.00 Location: X=3330.00 Y=-6054.18 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.818 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (25 other events since notify)
+[2018.11.11-13.22.43:479][722]LogCharacterMovement: Woman1_AI9_23 is stuck and failed to move! Velocity: X=259.49 Y=76.69 Z=0.00 Location: X=3830.01 Y=-6054.22 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.779 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (26 other events since notify)
+[2018.11.11-13.22.43:484][722]LogCharacterMovement: Man1_AI5_11 is stuck and failed to move! Velocity: X=-110.60 Y=233.44 Z=0.00 Location: X=8430.00 Y=-6054.20 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.805 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (26 other events since notify)
+[2018.11.11-13.22.43:520][723]LogCharacterMovement: Woman1_AI3_5 is stuck and failed to move! Velocity: X=-27.73 Y=242.99 Z=0.00 Location: X=3330.00 Y=-6054.18 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.818 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (26 other events since notify)
+[2018.11.11-13.22.45:922][791]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.22.45:922][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-13.22.46:010][791]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.11-13.22.46:011][791]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.22.46:060][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-13.22.46:127][792]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.11.11-13.22.53:168][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.23.18:065][555]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.11-13.23.18:122][555]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.23.18:122][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.11-13.23.18:122][555]PIE: New page: PIE session: world (Nov 11, 2018, 3:23:18 AM)
+[2018.11.11-13.23.18:123][555]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.11.11-13.23.18:296][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.173119s)
+[2018.11.11-13.23.18:297][555]LogAIModule: Creating AISystem for world world
+[2018.11.11-13.23.18:298][555]LogPlayLevel: PIE: World Init took: (0.001363s)
+[2018.11.11-13.23.18:298][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.174898s)
+[2018.11.11-13.23.18:339][555]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.11-13.23.18:375][555]LogInit: FAudioDevice initialized.
+[2018.11.11-13.23.18:412][555]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.11-13.23.18:465][555]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.11.11-08.23.18
+[2018.11.11-13.23.18:476][555]LogWorld: Bringing up level for play took: 0.062934
+[2018.11.11-13.23.18:495][555]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=3519.289 Y=-3163.816 Z=178.000] for [Bino_C]
+[2018.11.11-13.23.18:497][555]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2190.875 Y=-2058.424 Z=178.000] for [Bone_C]
+[2018.11.11-13.23.18:497][555]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=3142.928 Y=6370.096 Z=178.000] for [Key_C]
+[2018.11.11-13.23.18:498][555]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=9068.681 Y=2730.214 Z=178.000] for [Camera_C]
+[2018.11.11-13.23.18:500][555]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=6926.791 Y=-494.671 Z=178.000] for [Diploma_C]
+[2018.11.11-13.23.18:503][555]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 1.125
+[2018.11.11-13.23.18:504][555]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.23.18:979][561]LogCharacterMovement: Woman1_AI9_23 is stuck and failed to move! Velocity: X=-172.61 Y=80.96 Z=0.00 Location: X=3830.00 Y=-6054.19 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.810 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (1 other events since notify)
+[2018.11.11-13.23.18:981][561]LogCharacterMovement: Man1_AI5_11 is stuck and failed to move! Velocity: X=-116.80 Y=211.97 Z=0.00 Location: X=8430.00 Y=-6054.19 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.811 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (1 other events since notify)
+[2018.11.11-13.23.19:010][562]LogCharacterMovement: Woman1_AI3_5 is stuck and failed to move! Velocity: X=-46.69 Y=220.21 Z=0.00 Location: X=3330.00 Y=-6054.18 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.822 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (0 other events since notify)
+[2018.11.11-13.23.20:020][587]LogCharacterMovement: Woman1_AI3_5 is stuck and failed to move! Velocity: X=-46.69 Y=220.21 Z=0.00 Location: X=3330.00 Y=-6054.18 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.817 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (24 other events since notify)
+[2018.11.11-13.23.20:023][587]LogCharacterMovement: Woman1_AI9_23 is stuck and failed to move! Velocity: X=-172.61 Y=80.97 Z=0.00 Location: X=3830.00 Y=-6054.20 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.803 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (25 other events since notify)
+[2018.11.11-13.23.20:025][587]LogCharacterMovement: Man1_AI5_11 is stuck and failed to move! Velocity: X=-116.80 Y=211.97 Z=0.00 Location: X=8430.00 Y=-6054.20 Z=196.13 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:40.804 Actor:BlockingVolume_1 Component:BrushComponent0 BoneName:None (25 other events since notify)
+[2018.11.11-13.23.20:466][598]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.23.20:467][598]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-13.23.20:553][598]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.11-13.23.20:554][598]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.23.20:600][598]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-13.23.20:660][599]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.11.11-13.23.21:819][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.23.47:742][197]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.11-13.23.47:802][197]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.23.47:802][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.11-13.23.47:802][197]PIE: New page: PIE session: world (Nov 11, 2018, 3:23:47 AM)
+[2018.11.11-13.23.47:802][197]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.11.11-13.23.47:977][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.174677s)
+[2018.11.11-13.23.47:977][197]LogAIModule: Creating AISystem for world world
+[2018.11.11-13.23.47:978][197]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2018.11.11-13.23.47:978][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.175993s)
+[2018.11.11-13.23.48:019][197]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.11-13.23.48:051][197]LogInit: FAudioDevice initialized.
+[2018.11.11-13.23.48:088][197]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.11-13.23.48:140][197]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.11.11-08.23.48
+[2018.11.11-13.23.48:152][197]LogWorld: Bringing up level for play took: 0.063305
+[2018.11.11-13.23.48:175][197]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 0.795
+[2018.11.11-13.23.48:175][197]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.24.21:173][144]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.24.21:174][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-13.24.21:243][144]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.11-13.24.21:243][144]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.11-13.24.21:292][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.11-13.24.21:342][145]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.11.11-13.24.25:646][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.25.10:553][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.25.20:460][420]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.11-13.25.20:508][420]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:304 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2018.11.11-13.25.20:508][420]LogD3D11RHI: [Aftermath] GDynamicRHI=00000132E73C4100, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2018.11.11-13.25.20:508][420]LogWindows: Windows GetLastError: The operation completed successfully. (0)
