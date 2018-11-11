@@ -346,3 +346,26 @@ LogInit: Object subsystem initialized
 [2018.11.11-13.11.37:035][195]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 594.162ms to complete.
 [2018.11.11-13.11.37:041][195]LogFileHelpers: Loading map 'world' took 2.360
 [2018.11.11-13.11.53:764][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.12.23:049][855]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.12.23:961][883]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.12.24:297][883]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.12.27:668][883]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/world43BAA6514F099B610FEF1CB1769D58F1.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.11-13.12.27:849][883]LogFileHelpers: Saving map 'world' took 3.515
+[2018.11.11-13.12.29:955][911]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.12.40:480][ 74]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.11-13.12.41:521][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.12.48:863][ 74]LogSlate: Window 'Submit Files' being destroyed
+[2018.11.11-13.12.48:875][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.12.49:030][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.12.55:995][ 74]LogSourceControl: commit successful: [master ec9ea5c] blocking boandaries
+[2018.11.11-13.12.56:115][ 74]SourceControl: [master ec9ea5c] blocking boandaries
+[2018.11.11-13.12.56:115][ 74]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2018.11.11-13.12.56:131][ 74]SourceControl: Commited [master ec9ea5c] blocking boandaries.
+[2018.11.11-13.12.58:088][103]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.13.45:526][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.13.55:983][852]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.14.10:945][222]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.11-13.14.16:250][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-13.14.17:635][280]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.11-13.14.19:434][280]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/world40C60AA545AD3AB54E899D892FAA168A.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.11-13.14.25:121][280]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/world_BuiltData43BEFB6D462D5057DFEE59B803D5A4A5.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset'
