@@ -1175,3 +1175,30 @@ LogInit: Object subsystem initialized
 [2018.11.11-16.40.29:921][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
 [2018.11.11-16.40.29:996][554]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/ThirdPersonCharacter_Auto305851B694172A52FB05C58AE2407F6C5.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
 [2018.11.11-16.40.30:001][554]LogFileHelpers: Auto-saving content packages took 0.154
+[2018.11.11-16.43.54:380][706]BlueprintLog: New page: Compile door
+[2018.11.11-16.43.55:279][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/door" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset" SILENT=true
+[2018.11.11-16.43.55:333][706]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/door88431A3F4E73160CC87972A74DC82C09.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset'
+[2018.11.11-16.44.59:873][346]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.11.11-16.45.20:933][525]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BP_Key.BP_Key
+[2018.11.11-16.46.15:066][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-16.46.26:020][591]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Items/Bino.Bino
+[2018.11.11-16.46.39:629][822]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.11-16.46.49:238][129]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.11.11-16.46.49:514][129]LogClass: Warning: Type mismatch in Slot1Item of ThirdPersonCharacter_C - Previous (BoolProperty) Current(IntProperty) for package:  FObjectReader
+[2018.11.11-16.46.50:307][129]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/ThirdPersonCharacterFD6DEE10428A46E3CC371685C17BEFB7.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.11.11-16.46.52:849][193]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/ThirdPersonCharacter31E5E27C4DF96C8D32754FA90F84CCDD.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.11.11-16.50.18:694][587]BlueprintLog: New page: Compile Bino
+[2018.11.11-16.50.20:094][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Items/Bino" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/Items/Bino.uasset" SILENT=true
+[2018.11.11-16.50.20:199][621]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Bino44E8F2054BD691C310777F97FBE0914E.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/Items/Bino.uasset'
+[2018.11.11-16.50.22:856][720]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.11-16.50.54:930][117]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/world_Auto4EFA7ACDF41DE6F73B9556AB871353E88.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Autosaves/Game/ThirdPersonBP/Maps/world_Auto4.umap'
+[2018.11.11-16.50.54:939][117]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/world' took 1.363
+[2018.11.11-16.50.54:939][117]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.363
+[2018.11.11-16.51.09:033][668]BlueprintLog: New page: Compile door
+[2018.11.11-16.51.09:981][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/door" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset" SILENT=true
+[2018.11.11-16.51.10:025][676]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/doorFF89C3A342B56F08502B40AAD067DE4D.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset'
+[2018.11.11-16.52.18:804][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-16.52.34:650][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.11-16.56.35:866][366]BlueprintLog: New page: Compile door
+[2018.11.11-16.56.37:065][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/door" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset" SILENT=true
+[2018.11.11-16.56.37:159][384]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/doorF034E8DC47E511C279E95ABDAE260E00.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset'
