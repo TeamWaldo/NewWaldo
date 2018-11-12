@@ -2335,3 +2335,52 @@ LogInit: Object subsystem initialized
 [2018.11.12-02.03.58:326][ 75]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
 [2018.11.12-02.04.53:556][267]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
 [2018.11.12-02.08.02:121][829]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.11.12-03.00.17:039][876]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/ITEMS.ITEMS
+[2018.11.12-03.01.22:033][199]BlueprintLog: New page: Compile door
+[2018.11.12-03.01.23:294][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/door" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset" SILENT=true
+[2018.11.12-03.01.23:375][218]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/door1423BC0B44B9DA41BF7D469F9DB019C7.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset'
+[2018.11.12-03.01.27:797][264]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/worldA5CC342C43C59477D66B2BA8BC0B94B2.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.12-03.01.31:899][264]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/world_BuiltDataB918DE424B32710597E7A58CA362BFE2.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset'
+[2018.11.12-03.01.36:129][344]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.12-03.01.36:298][344]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.12-03.01.36:299][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-03.01.36:303][344]PIE: New page: PIE session: world (Nov 11, 2018, 5:01:36 PM)
+[2018.11.12-03.01.36:306][344]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.11.12-03.01.36:653][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.346721s)
+[2018.11.12-03.01.36:656][344]LogAIModule: Creating AISystem for world world
+[2018.11.12-03.01.36:658][344]LogPlayLevel: PIE: World Init took: (0.004852s)
+[2018.11.12-03.01.36:658][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.352443s)
+[2018.11.12-03.01.36:742][344]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.12-03.01.36:796][344]LogInit: FAudioDevice initialized.
+[2018.11.12-03.01.36:838][344]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.12-03.01.36:950][344]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.11.11-22.01.36
+[2018.11.12-03.01.36:976][344]LogWorld: Bringing up level for play took: 0.136151
+[2018.11.12-03.01.37:009][344]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=7421.020 Y=6136.921 Z=178.000] for [Key_C]
+[2018.11.12-03.01.37:013][344]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8030.161 Y=5221.340 Z=178.000] for [Diploma_C]
+[2018.11.12-03.01.37:023][344]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world -0.009
+[2018.11.12-03.01.37:024][344]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.12-03.02.08:884][966]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.12-03.02.08:886][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-03.02.09:062][966]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-03.02.09:063][966]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.12-03.02.09:151][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-03.02.09:240][967]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2018.11.12-03.02.11:403][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-03.02.19:824][408]BlueprintLog: New page: Compile door
+[2018.11.12-03.02.21:112][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/door" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset" SILENT=true
+[2018.11.12-03.02.21:179][436]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/doorE55D287B4E5AC72A9A5035A3F4C31D6F.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset'
+[2018.11.12-03.02.22:724][504]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.12-03.02.27:200][538]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/world44740ECF499D264826EEFEA4986BB7FB.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.12-03.02.31:110][538]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/world_BuiltDataD9BAE9C54581A28E3478E6A25E4E60B8.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset'
+[2018.11.12-03.02.41:120][729]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.12-03.03.56:887][729]LogSlate: Window 'Submit Files' being destroyed
+[2018.11.12-03.04.05:433][729]LogSourceControl: commit successful: [master f8bed1d] asdf
+[2018.11.12-03.04.05:661][729]SourceControl: [master f8bed1d] asdf
+[2018.11.12-03.04.05:661][729]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2018.11.12-03.04.05:670][729]SourceControl: Commited [master f8bed1d] asdf.
+[2018.11.12-03.04.22:410][ 58]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.12-03.04.22:883][ 58]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.12-03.04.23:159][ 58]LogSlate: Window 'NewWaldo - Unreal Editor' being destroyed
+[2018.11.12-03.04.25:148][ 59]Cmd: QUIT_EDITOR
+[2018.11.12-03.04.26:030][ 59]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.12-03.04.26:106][ 59]LogExit: Preparing to exit.
