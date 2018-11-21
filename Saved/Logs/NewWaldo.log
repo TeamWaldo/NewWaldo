@@ -1,4 +1,4 @@
-﻿Log file open, 11/20/18 17:11:04
+﻿Log file open, 11/20/18 23:03:54
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,8 +9,8 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: NewWaldo
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.276149
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.207857
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.106s to configure plugins.
+LogStreaming: Display: Took  0.354s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -114,16 +114,16 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: Build: ++UE4+Release-4.20-CL-4369336
-LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, GPU: Intel(R) UHD Graphics 620
-LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: -EpicPortal  -epicusername="RickReele" -epicuserid=111bac466df1419d975484213beac129 -epiclocale=en-US
+LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -147,590 +147,462 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.003s to delete old logs.
+LogStreaming: Display: Took  0.009s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.20-22.11.04:811][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.20-22.11.04:811][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.20-22.11.04:824][  0]LogHAL: Display: Platform has ~ 16 GB [17005645824 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.20-22.11.04:825][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.20-22.11.04:825][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.20-22.11.04:825][  0]LogInit: Computer: DESKTOP-CEA2IQM
-[2018.11.20-22.11.04:825][  0]LogInit: User: Nick
-[2018.11.20-22.11.04:825][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.11.20-22.11.04:825][  0]LogInit: High frequency timer resolution =1.945310 MHz
-[2018.11.20-22.11.04:825][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2018.11.20-22.11.04:825][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.20-22.11.04:825][  0]LogMemory: Process Physical Memory: 101.84 MB used, 101.84 MB peak
-[2018.11.20-22.11.04:825][  0]LogMemory: Process Virtual Memory: 89.49 MB used, 89.49 MB peak
-[2018.11.20-22.11.04:825][  0]LogMemory: Physical Memory: 6749.04 MB used,  9468.81 MB free, 16217.85 MB total
-[2018.11.20-22.11.04:825][  0]LogMemory: Virtual Memory: 4643.41 MB used,  9468.81 MB free, 134217728.00 MB total
-[2018.11.20-22.11.04:839][  0]LogInit: Using OS detected language (en-US).
-[2018.11.20-22.11.04:839][  0]LogInit: Using OS detected locale (en-US).
-[2018.11.20-22.11.04:840][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.11.20-22.11.05:199][  0]LogStreaming: Display: Took  0.358s to InitEngineTextLocalization.
-[2018.11.20-22.11.05:199][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.20-22.11.05:252][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.20-22.11.05:252][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.20-22.11.05:441][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.20-22.11.05:441][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.20-22.11.05:476][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
-[2018.11.20-22.11.05:476][  0]LogD3D11RHI:       128/0/8108 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
-[2018.11.20-22.11.05:478][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.20-22.11.05:478][  0]LogD3D11RHI:       0/0/8108 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.20-22.11.05:480][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.20-22.11.05:480][  0]LogD3D11RHI:       0/0/8108 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.20-22.11.05:480][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.20-22.11.05:487][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.20-22.11.05:487][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.20-22.11.05:487][  0]LogWindows: EnumDisplayDevices:
-[2018.11.20-22.11.05:488][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2018.11.20-22.11.05:488][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:1 D:1)
-[2018.11.20-22.11.05:488][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2018.11.20-22.11.05:488][  0]LogWindows:    3. 'DisplayLink USB Device' (P:0 D:1)
-[2018.11.20-22.11.05:489][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
-[2018.11.20-22.11.05:489][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
-[2018.11.20-22.11.05:489][  0]LogD3D11RHI:   Driver Version: 23.20.16.4973 (internal:23.20.16.4973, unified:23.20.16.4973)
-[2018.11.20-22.11.05:489][  0]LogD3D11RHI:      Driver Date: 2-28-2018
-[2018.11.20-22.11.05:489][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
-[2018.11.20-22.11.05:516][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.20-22.11.05:527][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
-[2018.11.20-22.11.05:528][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Intermediate/Shaders/WorkingDirectory/13504/).
-[2018.11.20-22.11.05:528][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nick/AppData/Local/Temp/UnrealShaderWorkingDir/E324E12446910A33C31273A35D731981/'.
-[2018.11.20-22.11.05:798][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.20-22.11.05:814][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.20-22.11.05:830][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.20-22.11.05:845][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.20-22.11.05:862][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.20-22.11.05:877][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.20-22.11.05:891][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.20-22.11.05:903][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.20-22.11.05:909][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.20-22.11.05:985][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.11.20-22.11.06:043][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.20-22.11.06:043][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.20-22.11.06:067][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.20-22.11.06:067][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.20-22.11.06:080][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.11.20-22.11.06:093][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.11.20-22.11.06:104][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.11.20-22.11.06:119][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.11.20-22.11.06:130][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.11.20-22.11.06:130][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.20-22.11.06:191][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.20-22.11.06:191][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.20-22.11.06:191][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.20-22.11.06:994][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.20-22.11.07:050][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Nick/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.20-22.11.07:050][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nick/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.11.20-22.11.07:051][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nick/Documents/GitHub/NewWaldo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.20-22.11.07:051][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.20-22.11.07:051][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nick/Documents/GitHub/NewWaldo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.20-22.11.07:051][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.20-22.11.07:064][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.11.20-22.11.07:075][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.20-22.11.07:075][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.20-22.11.07:075][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.20-22.11.07:094][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.20-22.11.07:095][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.20-22.11.07:095][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.20-22.11.07:170][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
-[2018.11.20-22.11.07:491][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.20-22.11.07:633][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.11.20-22.11.07:637][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.11.20-22.11.07:637][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.20-22.11.07:637][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.20-22.11.07:637][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.20-22.11.07:661][  0]LogNetVersion: NewWaldo 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3229626331)
-[2018.11.20-22.11.08:317][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.123007 seconds
-[2018.11.20-22.11.08:326][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.11.20-22.11.08:326][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.11.20-22.11.08:326][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.20-22.11.09:192][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.20-22.11.09:205][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.20-22.11.09:351][  0]SourceControl: Source control is disabled
-[2018.11.20-22.11.10:466][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.20-22.11.10:596][  0]LogOcInput: OculusInput pre-init called
-[2018.11.20-22.11.10:667][  0]LogEngine: Initializing Engine...
-[2018.11.20-22.11.10:668][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.20-22.11.10:669][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.20-22.11.10:669][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.20-22.11.10:670][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.20-22.11.10:670][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.20-22.11.10:900][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.20-22.11.10:914][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.20-22.11.11:152][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.20-22.11.11:871][  0]LogInit: FAudioDevice initialized.
-[2018.11.20-22.11.11:872][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.20-22.11.11:952][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/Nick/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.20-22.11.11:967][  0]LogInit: Texture streaming: Enabled
-[2018.11.20-22.11.11:984][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.20-22.11.12:004][  0]LogInit: Transaction tracking system initialized
-[2018.11.20-22.11.12:027][  0]BlueprintLog: New page: Editor Load
-[2018.11.20-22.11.12:105][  0]LocalizationService: Localization service is disabled
-[2018.11.20-22.11.12:732][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.20-22.11.12:732][  0]LogCook: Display: Mobile HDR setting 1
-[2018.11.20-22.11.12:733][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.20-22.11.12:733][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.20-22.11.12:733][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.20-22.11.12:733][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.20-22.11.12:733][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.20-22.11.12:868][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nick/Documents/GitHub/NewWaldo/Content/' took 0.03s
-[2018.11.20-22.11.12:868][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.20-22.11.12:868][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.11.20-22.11.12:868][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.20-22.11.12:952][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.809ms to complete.
-[2018.11.20-22.11.12:952][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.084
-[2018.11.20-22.11.13:170][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-22.11.13:186][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-22.11.13:197][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-22.11.13:208][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-22.11.13:232][  0]LogCollectionManager: Loaded 0 collections in 0.002291 seconds
-[2018.11.20-22.11.13:311][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nick/Documents/GitHub/NewWaldo/Saved/Collections/' took 0.01s
-[2018.11.20-22.11.13:311][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nick/Documents/GitHub/NewWaldo/Content/Developers/Nick/Collections/' took 0.01s
-[2018.11.20-22.11.13:311][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nick/Documents/GitHub/NewWaldo/Content/Collections/' took 0.01s
-[2018.11.20-22.11.13:311][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.11.20-22.11.13:330][  0]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2572 classes and 603 folders.
-[2018.11.20-22.11.13:353][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.11.20-22.11.14:270][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.11.20-22.11.14:299][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.11.20-22.11.14:543][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.20-22.11.14:546][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.20-22.11.14:565][  0]LogSlate: Took 0.009177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.20-22.11.14:761][  0]LogRenderer: Reallocating scene render targets to support 1208x584 Format 9 NumSamples 1 (Frame:1).
-[2018.11.20-22.11.15:293][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.11.20-22.11.15:293][  0]LogLoad: (Engine Initialization) Total time: 12.07 seconds
-[2018.11.20-22.11.15:293][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.20-22.11.15:326][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.20-22.11.15:359][  0]LogContentStreaming: Texture pool size now 600 MB
-[2018.11.20-22.11.15:405][  0]LogSlate: Took 0.008160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.20-22.15.07:065][288]LogAssetRegistry: Asset discovery search completed in 239.9178 seconds
-[2018.11.20-22.15.07:071][288]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.11.20-22.15.07:071][288]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000113 seconds (updated 0 objects)
-[2018.11.20-22.19.53:789][500]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-22.19.54:163][521]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-22.19.55:283][587]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-22.19.58:609][786]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-22.19.58:933][805]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-22.20.01:809][977]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-22.20.05:691][148]Cmd: MAP LOAD FILE="../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.20-22.20.05:707][148]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.20-22.20.05:729][148]LightingResults: New page: Lighting Build
-[2018.11.20-22.20.05:746][148]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
-[2018.11.20-22.20.05:748][148]LoadErrors: New page: Loading map: world.umap
-[2018.11.20-22.20.05:748][148]MapCheck: New page: Map Check
-[2018.11.20-22.20.05:748][148]LightingResults: New page: Lighting Build
-[2018.11.20-22.20.07:934][148]LogTexture: Display: Building textures: man_Top_Normal (BC5, 512X512)
-[2018.11.20-22.20.07:934][148]LogTexture: Display: Building textures: man_Top_Diffuse (AutoDXT, 512X512)
-[2018.11.20-22.20.07:934][148]LogTexture: Display: Building textures: man_Shoes_Diffuse (AutoDXT, 512X512)
-[2018.11.20-22.20.07:934][148]LogTexture: Display: Building textures: man_Shoes_Normal (BC5, 512X512)
-[2018.11.20-22.20.07:934][148]LogTexture: Display: Building textures: man_Hat_Normal (BC5, 512X512)
-[2018.11.20-22.20.07:934][148]LogTexture: Display: Building textures: man_Hat_Diffuse (AutoDXT, 512X512)
-[2018.11.20-22.20.07:934][148]LogTexture: Display: Building textures: man_Hair_Normal (BC5, 512X512)
-[2018.11.20-22.20.07:934][148]LogTexture: Display: Building textures: man_Hair_Diffuse (AutoDXT, 512X512)
-[2018.11.20-22.20.07:934][148]LogTexture: Display: Building textures: man_Eyewear_Normal (BC5, 512X512)
-[2018.11.20-22.20.07:934][148]LogTexture: Display: Building textures: man_Eyewear_Diffuse (AutoDXT, 512X512)
-[2018.11.20-22.20.07:934][148]LogTexture: Display: Building textures: man_Bottom_Normal (BC5, 512X512)
-[2018.11.20-22.20.07:934][148]LogTexture: Display: Building textures: man_Bottom_Diffuse (AutoDXT, 512X512)
-[2018.11.20-22.20.08:146][148]LogTexture: Display: Building textures: man_Body_Normal (BC5, 1024X1024)
-[2018.11.20-22.20.08:367][148]LogTexture: Display: Building textures: man_Body_Diffuse (AutoDXT, 1024X1024)
-[2018.11.20-22.20.08:367][148]LogTexture: Display: Building textures: man_Beard_Normal (BC5, 512X512)
-[2018.11.20-22.20.08:367][148]LogTexture: Display: Building textures: man_Beard_Diffuse (AutoDXT, 512X512)
-[2018.11.20-22.20.08:578][148]LogTexture: Display: Building textures: knife_d (AutoDXT, 128X128)
-[2018.11.20-22.20.10:139][148]LogTexture: Display: Building textures: exit_texture (BGRA8, 228X369)
-[2018.11.20-22.20.10:231][148]LogStaticMesh: Building static mesh SM_Fence_B_Door...
-[2018.11.20-22.20.10:337][148]LogStaticMesh: Built static mesh [0.11s] /Game/AmusementPropsPack/Meshes/Fence/SM_Fence_B_Door.SM_Fence_B_Door
-[2018.11.20-22.20.10:362][148]LogStaticMesh: Building static mesh exitsign...
-[2018.11.20-22.20.10:385][148]LogStaticMesh: Built static mesh [0.02s] /Game/OurStuff/ExitSign/exitsign.exitsign
-[2018.11.20-22.20.10:988][148]LogStaticMesh: Building static mesh Knife...
-[2018.11.20-22.20.10:994][148]LogStaticMesh: Built static mesh [0.01s] /Game/Waldo/knife/Knife.Knife
-[2018.11.20-22.20.11:113][148]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/People/man4/Standing_W_Briefcase_Idle.Standing_W_Briefcase_Idle
-[2018.11.20-22.20.11:115][148]LogAnimationCompression: Recompressing (AnimSequence /Game/People/man4/Standing_W_Briefcase_Idle.Standing_W_Briefcase_Idle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.11.20-22.20.11:216][148]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/People/man4/Walking_Anim.Walking_Anim
-[2018.11.20-22.20.11:216][148]LogAnimationCompression: Recompressing (AnimSequence /Game/People/man4/Walking_Anim.Walking_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.11.20-22.20.11:219][148]LogMaterial: Display: Missing cached shader map for material man4_beard_mat, compiling. 
-[2018.11.20-22.20.11:298][148]LogSkeletalMesh: Building Skeletal Mesh man4...
-[2018.11.20-22.20.11:403][148]LogShaderCompilers: Display: Shaders left to compile 60
-[2018.11.20-22.20.11:403][148]LogShaderCompilers: Display: Shaders left to compile 50
-[2018.11.20-22.20.11:403][148]LogShaderCompilers: Display: Shaders left to compile 40
-[2018.11.20-22.20.11:403][148]LogShaderCompilers: Display: Shaders left to compile 30
-[2018.11.20-22.20.11:403][148]LogSkeletalMesh: Built Skeletal Mesh [0.10s] /Game/People/man4/man4.man4
-[2018.11.20-22.20.11:489][148]LogMaterial: Display: Missing cached shader map for material man4_top_mat, compiling. 
-[2018.11.20-22.20.11:541][148]LogMaterial: Display: Missing cached shader map for material man4_shoes_mat, compiling. 
-[2018.11.20-22.20.11:585][148]LogMaterial: Display: Missing cached shader map for material man4_hat_mat, compiling. 
-[2018.11.20-22.20.11:622][148]LogMaterial: Display: Missing cached shader map for material man4_hair_mat, compiling. 
-[2018.11.20-22.20.11:678][148]LogMaterial: Display: Missing cached shader map for material man4_glasses_mat, compiling. 
-[2018.11.20-22.20.11:725][148]LogMaterial: Display: Missing cached shader map for material man4_bottom_mat, compiling. 
-[2018.11.20-22.20.11:774][148]LogMaterial: Display: Missing cached shader map for material man4_body_mat, compiling. 
-[2018.11.20-22.20.12:010][148]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/People/woman3/Female_Tough_Walk.Female_Tough_Walk
-[2018.11.20-22.20.12:010][148]LogAnimationCompression: Recompressing (AnimSequence /Game/People/woman3/Female_Tough_Walk.Female_Tough_Walk) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.11.20-22.20.12:145][148]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Waldo/Animation/waldo_looking_Anim.waldo_looking_Anim
-[2018.11.20-22.20.12:145][148]LogAnimationCompression: Recompressing (AnimSequence /Game/Waldo/Animation/waldo_looking_Anim.waldo_looking_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.11.20-22.20.12:364][148]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/People/woman5/Walk.Walk
-[2018.11.20-22.20.12:364][148]LogAnimationCompression: Recompressing (AnimSequence /Game/People/woman5/Walk.Walk) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.11.20-22.20.12:454][148]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Waldo/Animation/waldo_run_Anim.waldo_run_Anim
-[2018.11.20-22.20.12:455][148]LogAnimationCompression: Recompressing (AnimSequence /Game/Waldo/Animation/waldo_run_Anim.waldo_run_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.11.20-22.20.12:456][148]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Waldo/Animation/waldo_walk_Anim.waldo_walk_Anim
-[2018.11.20-22.20.12:456][148]LogAnimationCompression: Recompressing (AnimSequence /Game/Waldo/Animation/waldo_walk_Anim.waldo_walk_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.11.20-22.20.12:776][148]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
-[2018.11.20-22.20.12:823][148]LogSkeletalMesh: Building Skeletal Mesh waldo...
-[2018.11.20-22.20.12:866][148]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/Waldo/waldo.waldo
-[2018.11.20-22.20.13:408][148]LogMaterial: Display: Missing cached shader map for material exit_mat, compiling. 
-[2018.11.20-22.20.14:027][148]LogAIModule: Creating AISystem for world world
-[2018.11.20-22.20.18:238][148]LogShaderCompilers: Display: Shaders left to compile 484
-[2018.11.20-22.20.18:238][148]LogShaderCompilers: Display: Shaders left to compile 474
-[2018.11.20-22.20.18:238][148]LogShaderCompilers: Display: Shaders left to compile 464
-[2018.11.20-22.20.18:238][148]LogShaderCompilers: Display: Shaders left to compile 454
-[2018.11.20-22.20.18:238][148]LogShaderCompilers: Display: Shaders left to compile 444
-[2018.11.20-22.20.18:891][148]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.20-22.20.19:129][148]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.20-22.20.19:451][148]LogShaderCompilers: Display: Shaders left to compile 434
-[2018.11.20-22.20.19:451][148]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 321.221ms to complete.
-[2018.11.20-22.20.19:451][148]LogFileHelpers: Loading map 'world' took 13.762
-[2018.11.20-22.20.19:456][148]LogSlate: Window 'Open Level' being destroyed
-[2018.11.20-22.20.19:910][149]LogShaderCompilers: Display: Shaders left to compile 424
-[2018.11.20-22.20.21:649][153]LogShaderCompilers: Display: Shaders left to compile 414
-[2018.11.20-22.20.21:961][154]LogShaderCompilers: Display: Shaders left to compile 404
-[2018.11.20-22.20.26:093][210]LogShaderCompilers: Display: Shaders left to compile 394
-[2018.11.20-22.20.28:328][242]LogShaderCompilers: Display: Shaders left to compile 384
-[2018.11.20-22.20.28:964][251]LogShaderCompilers: Display: Shaders left to compile 374
-[2018.11.20-22.20.32:092][293]LogShaderCompilers: Display: Shaders left to compile 364
-[2018.11.20-22.20.37:115][359]LogShaderCompilers: Display: Shaders left to compile 354
-[2018.11.20-22.20.38:020][372]LogShaderCompilers: Display: Shaders left to compile 344
-[2018.11.20-22.20.40:214][403]LogShaderCompilers: Display: Shaders left to compile 334
-[2018.11.20-22.20.40:291][404]LogShaderCompilers: Display: Shaders left to compile 324
-[2018.11.20-22.20.43:801][453]LogShaderCompilers: Display: Shaders left to compile 314
-[2018.11.20-22.20.45:972][484]LogShaderCompilers: Display: Shaders left to compile 304
-[2018.11.20-22.20.47:206][501]LogShaderCompilers: Display: Shaders left to compile 294
-[2018.11.20-22.20.49:979][540]LogShaderCompilers: Display: Shaders left to compile 284
-[2018.11.20-22.20.52:593][577]LogShaderCompilers: Display: Shaders left to compile 274
-[2018.11.20-22.20.53:189][586]LogShaderCompilers: Display: Shaders left to compile 264
-[2018.11.20-22.20.55:825][622]LogShaderCompilers: Display: Shaders left to compile 254
-[2018.11.20-22.20.56:262][628]LogShaderCompilers: Display: Shaders left to compile 244
-[2018.11.20-22.21.01:360][696]LogShaderCompilers: Display: Shaders left to compile 234
-[2018.11.20-22.21.03:966][731]LogShaderCompilers: Display: Shaders left to compile 224
-[2018.11.20-22.21.04:772][741]LogShaderCompilers: Display: Shaders left to compile 214
-[2018.11.20-22.21.08:650][791]LogShaderCompilers: Display: Shaders left to compile 204
-[2018.11.20-22.21.13:043][849]LogShaderCompilers: Display: Shaders left to compile 194
-[2018.11.20-22.21.14:717][872]LogShaderCompilers: Display: Shaders left to compile 184
-[2018.11.20-22.21.18:442][923]LogShaderCompilers: Display: Shaders left to compile 174
-[2018.11.20-22.21.18:750][926]LogShaderCompilers: Display: Shaders left to compile 164
-[2018.11.20-22.21.23:483][989]LogShaderCompilers: Display: Shaders left to compile 154
-[2018.11.20-22.21.25:210][ 12]LogShaderCompilers: Display: Shaders left to compile 144
-[2018.11.20-22.21.26:464][ 28]LogShaderCompilers: Display: Shaders left to compile 134
-[2018.11.20-22.21.30:163][ 77]LogShaderCompilers: Display: Shaders left to compile 124
-[2018.11.20-22.21.33:210][119]LogShaderCompilers: Display: Shaders left to compile 114
-[2018.11.20-22.21.34:943][143]LogShaderCompilers: Display: Shaders left to compile 104
-[2018.11.20-22.21.38:348][184]LogShaderCompilers: Display: Shaders left to compile 94
-[2018.11.20-22.21.38:690][189]LogShaderCompilers: Display: Shaders left to compile 84
-[2018.11.20-22.21.42:479][241]LogShaderCompilers: Display: Shaders left to compile 74
-[2018.11.20-22.21.44:097][264]LogShaderCompilers: Display: Shaders left to compile 64
-[2018.11.20-22.21.47:344][307]LogShaderCompilers: Display: Shaders left to compile 54
-[2018.11.20-22.21.51:265][361]LogShaderCompilers: Display: Shaders left to compile 44
-[2018.11.20-22.21.54:509][406]LogShaderCompilers: Display: Shaders left to compile 34
-[2018.11.20-22.21.56:256][430]LogShaderCompilers: Display: Shaders left to compile 24
-[2018.11.20-22.21.59:321][475]LogShaderCompilers: Display: Shaders left to compile 14
-[2018.11.20-22.22.00:213][488]LogShaderCompilers: Display: Shaders left to compile 4
-[2018.11.20-22.23.43:947][903]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-22.23.43:990][903]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.20-22.23.44:020][903]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-22.23.44:021][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.20-22.23.44:042][903]PIE: New page: PIE session: world (Nov 20, 2018, 12:23:44 PM)
-[2018.11.20-22.23.44:042][903]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
-[2018.11.20-22.23.44:176][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133423s)
-[2018.11.20-22.23.44:176][903]LogAIModule: Creating AISystem for world world
-[2018.11.20-22.23.44:177][903]LogPlayLevel: PIE: World Init took: (0.001373s)
-[2018.11.20-22.23.44:178][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.135394s)
-[2018.11.20-22.23.44:215][903]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.20-22.23.44:290][903]LogInit: FAudioDevice initialized.
-[2018.11.20-22.23.44:346][903]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.11.20-22.23.44:380][903]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.11.20-17.23.44
-[2018.11.20-22.23.44:410][903]LogWorld: Bringing up level for play took: 0.053082
-[2018.11.20-22.23.44:446][903]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
-[2018.11.20-22.23.44:466][903]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=3227.575 Y=2230.010 Z=178.000] for [Key_C]
-[2018.11.20-22.23.44:493][903]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 1.266
-[2018.11.20-22.23.44:493][903]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-22.24.01:758][131]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-22.24.01:763][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-22.24.01:867][131]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.20-22.24.01:869][131]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-22.24.01:927][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-22.24.02:004][132]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2018.11.20-22.29.29:079][265]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-22.30.05:944][375]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-22.30.17:760][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-22.30.17:827][410]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.20-22.30.17:855][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-22.30.17:855][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.20-22.30.17:855][410]PIE: New page: PIE session: world (Nov 20, 2018, 12:30:17 PM)
-[2018.11.20-22.30.17:855][410]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
-[2018.11.20-22.30.17:937][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082304s)
-[2018.11.20-22.30.17:938][410]LogAIModule: Creating AISystem for world world
-[2018.11.20-22.30.17:938][410]LogPlayLevel: PIE: World Init took: (0.000814s)
-[2018.11.20-22.30.17:938][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.083279s)
-[2018.11.20-22.30.17:970][410]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.20-22.30.18:044][410]LogInit: FAudioDevice initialized.
-[2018.11.20-22.30.18:076][410]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.11.20-22.30.18:099][410]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.11.20-17.30.18
-[2018.11.20-22.30.18:105][410]LogWorld: Bringing up level for play took: 0.027858
-[2018.11.20-22.30.18:123][410]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 0.896
-[2018.11.20-22.30.18:123][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-22.30.22:589][465]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-22.30.22:589][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-22.30.22:703][465]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.20-22.30.22:704][465]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-22.30.22:732][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-22.30.22:817][466]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2018.11.20-22.32.54:654][964]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-22.34.55:063][121]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Waldo/waldo_AnimBlueprint.waldo_AnimBlueprint
-[2018.11.20-22.34.55:161][121]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.11.20-22.34.55:588][121]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.11.20-22.34.55:601][121]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
-[2018.11.20-22.34.56:178][121]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2018.11.20-22.34.57:064][121]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.11.20-22.34.57:514][121]LogSlate: Took 0.007523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.11.20-22.34.57:774][121]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
-[2018.11.20-22.34.57:900][122]LogSlate: Took 0.006475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.11.20-22.35.15:653][466]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.11.20-22.35.19:443][692]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Waldo/Animation/waldo_run_Anim.waldo_run_Anim
-[2018.11.20-22.35.19:461][692]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.11.20-22.35.19:522][692]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.11.20-22.35.20:255][692]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.11.20-22.35.22:978][751]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Waldo/Animation/waldo_walk_Anim.waldo_walk_Anim
-[2018.11.20-22.35.27:878][853]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Waldo/Animation/waldo_run_Anim.waldo_run_Anim
-[2018.11.20-22.38.51:436][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-22.40.38:324][816]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/world' took 0.073
-[2018.11.20-22.40.38:328][816]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Waldo/Animation/waldo_run_Anim] ([1] browsable assets)...
-[2018.11.20-22.40.38:361][816]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Waldo/Animation/waldo_run_Anim.waldo_run_Anim]
-[2018.11.20-22.40.38:362][816]OBJ SavePackage: Finished generating thumbnails for package [/Game/Waldo/Animation/waldo_run_Anim]
-[2018.11.20-22.40.38:442][816]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Saved/waldo_run_Anim_Auto187F434384C9634F56A20AC9DB012B132.tmp' to '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Saved/Autosaves/Game/Waldo/Animation/waldo_run_Anim_Auto1.uasset'
-[2018.11.20-22.40.38:446][816]LogFileHelpers: Auto-saving content packages took 0.121
-[2018.11.20-22.48.29:472][922]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Nick\Downloads\430708__juandamb__running.wav)
-[2018.11.20-22.48.43:805][ 55]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave 430708__juandamb__running...
-[2018.11.20-22.48.43:805][ 55]LogTemp: Couldn't find amount to resample to.
-[2018.11.20-22.48.43:963][ 55]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 520394 while cooking SoundWave /Game/Audio/430708__juandamb__running.430708__juandamb__running.
-[2018.11.20-22.50.38:683][721]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/world' took 0.029
-[2018.11.20-22.50.38:685][721]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Waldo/Animation/waldo_run_Anim] ([1] browsable assets)...
-[2018.11.20-22.50.38:685][721]OBJ SavePackage: Finished generating thumbnails for package [/Game/Waldo/Animation/waldo_run_Anim]
-[2018.11.20-22.50.38:713][721]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Saved/waldo_run_Anim_Auto21291218548F853182BFD8BA3DFB2EF02.tmp' to '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Saved/Autosaves/Game/Waldo/Animation/waldo_run_Anim_Auto2.uasset'
-[2018.11.20-22.50.38:715][721]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/430708__juandamb__running] ([1] browsable assets)...
-[2018.11.20-22.50.38:720][721]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/430708__juandamb__running.430708__juandamb__running]
-[2018.11.20-22.50.38:720][721]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/430708__juandamb__running]
-[2018.11.20-22.50.38:731][721]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Saved/430708__juandamb__running_Auto2C6BC7C6A4A01A55B17639AB0F8FA3BE2.tmp' to '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Saved/Autosaves/Game/Audio/430708__juandamb__running_Auto2.uasset'
-[2018.11.20-22.50.38:732][721]LogFileHelpers: Auto-saving content packages took 0.048
-[2018.11.20-22.53.58:606][956]LogSlate: Window 'waldo_run_Anim*' being destroyed
-[2018.11.20-22.53.58:615][956]LogSlate: Window 'waldo_run_Anim*' being destroyed
-[2018.11.20-22.54.07:951][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-22.54.08:149][ 82]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Nick\Downloads\running.8.wav)
-[2018.11.20-22.54.18:584][227]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Waldo/Animation/waldo_run_Anim.waldo_run_Anim
-[2018.11.20-22.54.18:653][227]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.11.20-22.54.18:752][227]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.11.20-22.54.19:606][227]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.11.20-22.54.38:600][435]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave running_8...
-[2018.11.20-22.54.38:600][435]LogTemp: Couldn't find amount to resample to.
-[2018.11.20-22.54.38:639][435]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 70560 while cooking SoundWave /Game/Audio/running_8.running_8.
-[2018.11.20-22.56.55:855][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-22.56.56:307][293]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-22.56.56:319][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Waldo/Animation/waldo_run_Anim" FILE="../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Content/Waldo/Animation/waldo_run_Anim.uasset" SILENT=true
-[2018.11.20-22.56.56:379][293]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Saved/waldo_run_Anim7A800F564AD2307A97A1528B01414B4F.tmp' to '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Content/Waldo/Animation/waldo_run_Anim.uasset'
-[2018.11.20-22.56.58:184][314]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-22.57.00:218][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-22.57.00:288][340]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.20-22.57.00:445][340]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-22.57.00:446][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.20-22.57.00:446][340]PIE: New page: PIE session: world (Nov 20, 2018, 12:57:00 PM)
-[2018.11.20-22.57.00:446][340]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
-[2018.11.20-22.57.00:663][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.217485s)
-[2018.11.20-22.57.00:667][340]LogAIModule: Creating AISystem for world world
-[2018.11.20-22.57.00:668][340]LogPlayLevel: PIE: World Init took: (0.003937s)
-[2018.11.20-22.57.00:668][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.222259s)
-[2018.11.20-22.57.00:763][340]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.20-22.57.00:869][340]LogInit: FAudioDevice initialized.
-[2018.11.20-22.57.00:905][340]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.11.20-22.57.00:950][340]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.11.20-17.57.00
-[2018.11.20-22.57.00:960][340]LogWorld: Bringing up level for play took: 0.053540
-[2018.11.20-22.57.00:977][340]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=7350.708 Y=-549.065 Z=178.000] for [Bone_C]
-[2018.11.20-22.57.00:978][340]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=6721.771 Y=-4934.878 Z=178.000] for [Key_C]
-[2018.11.20-22.57.00:983][340]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world -0.244
-[2018.11.20-22.57.00:983][340]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-22.58.10:518][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-22.58.10:519][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-22.58.10:589][606]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.20-22.58.10:590][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-22.58.10:665][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-22.58.10:733][607]LogPlayLevel: Display: Destroying online subsystem :Context_29
-[2018.11.20-23.01.49:634][379]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/world' took 0.025
-[2018.11.20-23.01.49:635][379]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/running_8] ([1] browsable assets)...
-[2018.11.20-23.01.49:640][379]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/running_8.running_8]
-[2018.11.20-23.01.49:640][379]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/running_8]
-[2018.11.20-23.01.49:640][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/running_8" FILE="../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Saved/Autosaves/Game/Audio/running_8_Auto3.uasset" SILENT=false AUTOSAVING=true
-[2018.11.20-23.01.49:653][379]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Saved/running_8_Auto392512D66458D7D13281A32A345E6916F.tmp' to '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Saved/Autosaves/Game/Audio/running_8_Auto3.uasset'
-[2018.11.20-23.01.49:654][379]LogFileHelpers: Auto-saving content packages took 0.020
-[2018.11.20-23.03.54:699][752]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.04.04:416][781]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.04.14:361][811]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-23.04.16:665][856]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.20-23.04.16:768][856]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.04.16:768][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.20-23.04.16:768][856]PIE: New page: PIE session: world (Nov 20, 2018, 1:04:16 PM)
-[2018.11.20-23.04.16:768][856]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
-[2018.11.20-23.04.16:849][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080890s)
-[2018.11.20-23.04.16:850][856]LogAIModule: Creating AISystem for world world
-[2018.11.20-23.04.16:850][856]LogPlayLevel: PIE: World Init took: (0.000802s)
-[2018.11.20-23.04.16:850][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.081888s)
-[2018.11.20-23.04.16:886][856]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.20-23.04.16:960][856]LogInit: FAudioDevice initialized.
-[2018.11.20-23.04.16:994][856]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.11.20-23.04.17:017][856]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.11.20-18.04.17
-[2018.11.20-23.04.17:023][856]LogWorld: Bringing up level for play took: 0.027619
-[2018.11.20-23.04.17:038][856]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2123.294 Y=-4535.096 Z=178.000] for [Key_C]
-[2018.11.20-23.04.17:039][856]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2041.150 Y=-1761.345 Z=178.000] for [Diploma_C]
-[2018.11.20-23.04.17:042][856]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world -0.186
-[2018.11.20-23.04.17:042][856]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.05.01:513][675]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.05.01:514][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-23.05.01:597][675]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.20-23.05.01:598][675]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.05.01:665][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-23.05.01:727][676]LogPlayLevel: Display: Destroying online subsystem :Context_30
-[2018.11.20-23.05.10:358][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-23.05.23:158][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-23.05.25:711][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-23.05.25:767][ 31]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.20-23.05.25:899][ 31]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.05.25:899][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.20-23.05.25:899][ 31]PIE: New page: PIE session: world (Nov 20, 2018, 1:05:25 PM)
-[2018.11.20-23.05.25:899][ 31]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
-[2018.11.20-23.05.26:049][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149986s)
-[2018.11.20-23.05.26:050][ 31]LogAIModule: Creating AISystem for world world
-[2018.11.20-23.05.26:050][ 31]LogPlayLevel: PIE: World Init took: (0.001139s)
-[2018.11.20-23.05.26:050][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.151411s)
-[2018.11.20-23.05.26:118][ 31]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.20-23.05.26:218][ 31]LogInit: FAudioDevice initialized.
-[2018.11.20-23.05.26:253][ 31]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.11.20-23.05.26:285][ 31]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.11.20-18.05.26
-[2018.11.20-23.05.26:293][ 31]LogWorld: Bringing up level for play took: 0.038840
-[2018.11.20-23.05.26:311][ 31]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=7702.267 Y=4141.434 Z=178.000] for [Camera_C]
-[2018.11.20-23.05.26:315][ 31]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 1.088
-[2018.11.20-23.05.26:316][ 31]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.06.24:828][879]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.06.24:828][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-23.06.24:945][879]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.20-23.06.24:945][879]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.06.25:009][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-23.06.25:092][880]LogPlayLevel: Display: Destroying online subsystem :Context_31
-[2018.11.20-23.06.35:714][ 61]LogEditorViewport: Clicking on Actor (LMB): Waldo_Test_C (Waldo_Test)
-[2018.11.20-23.06.44:500][226]Cmd: DELETE
-[2018.11.20-23.06.44:500][226]Cmd: ACTOR DELETE
-[2018.11.20-23.06.44:556][226]LogEditorActor: Deleted Actor: Waldo_Test_C
-[2018.11.20-23.06.44:625][226]LogEditorActor: Deleted 1 Actors (0.113 secs)
-[2018.11.20-23.06.46:477][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-23.06.46:528][265]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.20-23.06.46:640][265]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.06.46:641][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.20-23.06.46:641][265]PIE: New page: PIE session: world (Nov 20, 2018, 1:06:46 PM)
-[2018.11.20-23.06.46:641][265]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
-[2018.11.20-23.06.46:797][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155509s)
-[2018.11.20-23.06.46:798][265]LogAIModule: Creating AISystem for world world
-[2018.11.20-23.06.46:798][265]LogPlayLevel: PIE: World Init took: (0.001134s)
-[2018.11.20-23.06.46:798][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.156923s)
-[2018.11.20-23.06.46:869][265]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.20-23.06.46:967][265]LogInit: FAudioDevice initialized.
-[2018.11.20-23.06.46:997][265]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.11.20-23.06.47:029][265]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.11.20-18.06.47
-[2018.11.20-23.06.47:036][265]LogWorld: Bringing up level for play took: 0.037977
-[2018.11.20-23.06.47:052][265]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8042.448 Y=3767.897 Z=178.000] for [Bino_C]
-[2018.11.20-23.06.47:053][265]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=3128.820 Y=1018.491 Z=178.000] for [Key_C]
-[2018.11.20-23.06.47:058][265]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world -0.17
-[2018.11.20-23.06.47:058][265]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.07.22:261][735]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.07.22:261][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-23.07.22:372][735]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.20-23.07.22:373][735]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.07.22:431][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-23.07.22:489][736]LogPlayLevel: Display: Destroying online subsystem :Context_33
-[2018.11.20-23.14.09:658][523]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-23.14.10:902][523]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Saved/world_Auto47A14DECB4C5913FDDEC727BFA15A03EE.tmp' to '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Saved/Autosaves/Game/ThirdPersonBP/Maps/world_Auto4.umap'
-[2018.11.20-23.14.10:915][523]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/world' took 1.150
-[2018.11.20-23.14.10:915][523]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.150
-[2018.11.20-23.24.55:046][267]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.25.57:438][453]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.26.11:184][494]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.26.38:358][575]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.26.56:771][630]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.27.07:511][662]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.27.18:245][694]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.27.28:984][726]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.28.17:593][871]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.28.27:310][900]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.28.38:046][932]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.29.24:655][ 71]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.29.42:077][123]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.29.52:810][155]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.30.04:558][190]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.11.20-23.33.40:038][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-23.33.40:310][835]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Waldo/Animation/waldo_walk_Anim.waldo_walk_Anim
-[2018.11.20-23.39.20:435][219]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-23.39.20:564][219]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Nick\Downloads\leftwalk.wav)
-[2018.11.20-23.39.27:247][251]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Nick\Downloads\rightwalk.wav)
-[2018.11.20-23.39.35:794][344]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave rightwalk...
-[2018.11.20-23.39.35:795][344]LogTemp: Couldn't find amount to resample to.
-[2018.11.20-23.39.35:864][344]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 123480 while cooking SoundWave /Game/Audio/rightwalk.rightwalk.
-[2018.11.20-23.40.10:302][712]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave leftwalk...
-[2018.11.20-23.40.10:302][712]LogTemp: Couldn't find amount to resample to.
-[2018.11.20-23.40.10:348][712]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 123480 while cooking SoundWave /Game/Audio/leftwalk.leftwalk.
-[2018.11.20-23.40.44:567][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-23.40.44:599][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Waldo/Animation/waldo_walk_Anim" FILE="../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Content/Waldo/Animation/waldo_walk_Anim.uasset" SILENT=true
-[2018.11.20-23.40.44:660][ 78]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Saved/waldo_walk_Anim3574BF2241E8D112E9D3F089AF6CAB26.tmp' to '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Content/Waldo/Animation/waldo_walk_Anim.uasset'
-[2018.11.20-23.40.45:693][ 92]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-23.40.45:788][ 93]LogSlate: Window 'waldo_walk_Anim' being destroyed
-[2018.11.20-23.40.45:885][ 93]LogSlate: Window 'waldo_walk_Anim' being destroyed
-[2018.11.20-23.40.46:913][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.20-23.40.47:056][107]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.20-23.40.47:215][107]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.40.47:215][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.20-23.40.47:216][107]PIE: New page: PIE session: world (Nov 20, 2018, 1:40:47 PM)
-[2018.11.20-23.40.47:216][107]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
-[2018.11.20-23.40.47:374][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158769s)
-[2018.11.20-23.40.47:375][107]LogAIModule: Creating AISystem for world world
-[2018.11.20-23.40.47:375][107]LogPlayLevel: PIE: World Init took: (0.001233s)
-[2018.11.20-23.40.47:376][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.160312s)
-[2018.11.20-23.40.47:452][107]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.20-23.40.47:553][107]LogInit: FAudioDevice initialized.
-[2018.11.20-23.40.47:590][107]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.11.20-23.40.47:623][107]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.11.20-18.40.47
-[2018.11.20-23.40.47:631][107]LogWorld: Bringing up level for play took: 0.036554
-[2018.11.20-23.40.47:647][107]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=6325.386 Y=4568.223 Z=178.000] for [Bino_C]
-[2018.11.20-23.40.47:648][107]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=7564.830 Y=360.049 Z=178.000] for [Bone_C]
-[2018.11.20-23.40.47:648][107]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=3048.269 Y=3033.379 Z=178.000] for [Key_C]
-[2018.11.20-23.40.47:653][107]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 0.425
-[2018.11.20-23.40.47:653][107]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.41.28:104][943]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.41.28:104][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-23.41.28:188][943]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.20-23.41.28:188][943]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
-[2018.11.20-23.41.28:252][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.20-23.41.28:307][944]LogPlayLevel: Display: Destroying online subsystem :Context_34
-[2018.11.20-23.41.29:901][973]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-23.41.31:436][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-23.41.31:610][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.20-23.41.32:935][  0]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Saved/worldEE7E8E454DED4168AEC697942B2C3607.tmp' to '../../../../../../Users/Nick/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
-[2018.11.20-23.41.32:997][  0]LogFileHelpers: Saving map 'world' took 1.380
+[2018.11.21-04.03.54:973][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.21-04.03.54:973][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.21-04.03.54:990][  0]LogHAL: Display: Platform has ~ 8 GB [8511496192 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.21-04.03.54:990][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.21-04.03.54:990][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.21-04.03.54:991][  0]LogInit: Computer: DESKTOP-2JCFOSA
+[2018.11.21-04.03.54:991][  0]LogInit: User: NIriz
+[2018.11.21-04.03.54:991][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.11.21-04.03.54:991][  0]LogInit: High frequency timer resolution =2.648436 MHz
+[2018.11.21-04.03.54:992][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.11.21-04.03.54:992][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.21-04.03.54:992][  0]LogMemory: Process Physical Memory: 101.42 MB used, 101.42 MB peak
+[2018.11.21-04.03.54:992][  0]LogMemory: Process Virtual Memory: 92.21 MB used, 92.21 MB peak
+[2018.11.21-04.03.54:992][  0]LogMemory: Physical Memory: 3778.32 MB used,  4338.88 MB free, 8117.20 MB total
+[2018.11.21-04.03.54:992][  0]LogMemory: Virtual Memory: 4614.87 MB used,  4338.88 MB free, 134217728.00 MB total
+[2018.11.21-04.03.55:017][  0]LogInit: Using OS detected language (en-US).
+[2018.11.21-04.03.55:017][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.21-04.03.55:018][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.21-04.03.55:481][  0]LogStreaming: Display: Took  0.465s to InitEngineTextLocalization.
+[2018.11.21-04.03.55:482][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.21-04.03.55:523][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.21-04.03.55:523][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.21-04.03.55:948][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.21-04.03.55:948][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.21-04.03.56:014][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.11.21-04.03.56:014][  0]LogD3D11RHI:       128/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.11.21-04.03.56:017][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.21-04.03.56:017][  0]LogD3D11RHI:       0/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.21-04.03.56:017][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.21-04.03.56:025][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.21-04.03.56:026][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.21-04.03.56:026][  0]LogWindows: EnumDisplayDevices:
+[2018.11.21-04.03.56:026][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.11.21-04.03.56:026][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.11.21-04.03.56:027][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.11.21-04.03.56:027][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.11.21-04.03.56:028][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.11.21-04.03.56:028][  0]LogD3D11RHI:   Driver Version: 24.20.100.6136 (internal:24.20.100.6136, unified:24.20.100.6136)
+[2018.11.21-04.03.56:028][  0]LogD3D11RHI:      Driver Date: 5-25-2018
+[2018.11.21-04.03.56:028][  0]LogRHI: Texture pool is 1510 MB (70% of 2157 MB)
+[2018.11.21-04.03.56:080][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.21-04.03.56:091][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2018.11.21-04.03.56:093][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Intermediate/Shaders/WorkingDirectory/7124/).
+[2018.11.21-04.03.56:093][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NIriz/AppData/Local/Temp/UnrealShaderWorkingDir/7E353C144EA67E8EC2A4FCBC0E975025/'.
+[2018.11.21-04.03.56:568][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.21-04.03.56:587][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.21-04.03.56:607][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.21-04.03.56:638][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.21-04.03.56:670][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.21-04.03.56:694][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.21-04.03.56:738][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.21-04.03.56:767][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.21-04.03.56:779][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:946][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.21-04.03.56:949][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.21-04.03.57:071][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.21-04.03.57:071][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.21-04.03.57:121][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.21-04.03.57:121][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.21-04.03.57:142][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.21-04.03.57:161][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.21-04.03.57:186][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.21-04.03.57:210][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.21-04.03.57:232][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.21-04.03.57:232][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.21-04.03.57:352][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.21-04.03.57:352][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.21-04.03.57:352][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.21-04.03.58:836][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.21-04.03.58:920][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/NIriz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.21-04.03.58:921][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/NIriz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.21-04.03.58:921][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.21-04.03.58:921][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.21-04.03.58:921][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.21-04.03.58:921][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.21-04.03.58:949][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.21-04.03.58:962][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NIriz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.21-04.03.58:962][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.21-04.03.58:962][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.21-04.03.58:997][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.21-04.03.59:000][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.21-04.03.59:001][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.21-04.03.59:134][  0]LogAssetRegistry: FAssetRegistry took 0.0298 seconds to start up
+[2018.11.21-04.03.59:755][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.21-04.04.00:047][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.21-04.04.00:053][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.21-04.04.00:053][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.21-04.04.00:054][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.21-04.04.00:054][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.21-04.04.00:075][  0]LogNetVersion: NewWaldo 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3229626331)
+[2018.11.21-04.04.01:024][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.214572 seconds
+[2018.11.21-04.04.01:036][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.21-04.04.01:036][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.21-04.04.01:036][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.21-04.04.02:910][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.21-04.04.02:923][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.21-04.04.03:152][  0]SourceControl: Source control is disabled
+[2018.11.21-04.04.04:455][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.21-04.04.04:569][  0]LogOcInput: OculusInput pre-init called
+[2018.11.21-04.04.04:663][  0]LogEngine: Initializing Engine...
+[2018.11.21-04.04.04:665][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.21-04.04.04:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.21-04.04.04:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.21-04.04.04:668][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.21-04.04.04:668][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.21-04.04.05:043][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.21-04.04.05:070][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.21-04.04.05:353][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-04.04.05:637][  0]LogInit: FAudioDevice initialized.
+[2018.11.21-04.04.05:637][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.21-04.04.05:810][  0]LogDerivedDataCache: Saved boot cache 0.17s 71MB C:/Users/NIriz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.21-04.04.05:826][  0]LogInit: Texture streaming: Enabled
+[2018.11.21-04.04.05:863][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.21-04.04.05:889][  0]LogInit: Transaction tracking system initialized
+[2018.11.21-04.04.05:933][  0]BlueprintLog: New page: Editor Load
+[2018.11.21-04.04.06:093][  0]LocalizationService: Localization service is disabled
+[2018.11.21-04.04.06:194][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.11.21-04.04.06:194][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.11.21-04.04.06:194][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2018.11.21-04.04.06:995][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.21-04.04.06:995][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.21-04.04.06:995][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.21-04.04.06:995][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.21-04.04.06:995][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.21-04.04.06:996][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.21-04.04.06:996][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.21-04.04.07:339][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/' took 0.07s
+[2018.11.21-04.04.07:401][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.21-04.04.07:404][  0]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.21-04.04.18:181][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.11.21-04.04.18:182][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.21-04.04.18:184][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.21-04.04.18:242][  0]Cmd: MAP LOAD FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.21-04.04.18:243][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.11.21-04.04.18:243][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.21-04.04.18:409][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 165.01ms to complete.
+[2018.11.21-04.04.18:409][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.167
+[2018.11.21-04.04.18:508][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.04.18:527][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.04.18:543][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.04.18:559][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.04.18:577][  0]LogCollectionManager: Loaded 0 collections in 0.002649 seconds
+[2018.11.21-04.04.18:649][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Collections/' took 0.01s
+[2018.11.21-04.04.18:649][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/Developers/NIriz/Collections/' took 0.01s
+[2018.11.21-04.04.18:649][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/Collections/' took 0.01s
+[2018.11.21-04.04.18:649][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.21-04.04.18:670][  0]LogContentBrowser: Native class hierarchy populated in 0.0193 seconds. Added 2572 classes and 603 folders.
+[2018.11.21-04.04.18:693][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.21-04.04.18:951][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.21-04.04.18:969][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.11.21-04.04.19:141][  0]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.21-04.04.19:154][  0]LogSlate: Took 0.001568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.21-04.04.19:263][  0]LogRenderer: Reallocating scene render targets to support 796x444 Format 9 NumSamples 1 (Frame:1).
+[2018.11.21-04.04.19:750][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.21-04.04.19:750][  0]LogLoad: (Engine Initialization) Total time: 28.11 seconds
+[2018.11.21-04.04.19:750][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.21-04.04.19:894][  0]LogContentStreaming: Texture pool size now 600 MB
+[2018.11.21-04.04.20:553][  6]LogAssetRegistry: Asset discovery search completed in 21.4410 seconds
+[2018.11.21-04.04.20:558][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.21-04.04.20:558][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000148 seconds (updated 0 objects)
+[2018.11.21-04.04.20:910][ 14]LogSlate: Took 0.002382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.21-04.04.22:649][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.04.31:222][396]LogLinker: Warning: Can't find file '/Game/Audio/leftwalk'
+[2018.11.21-04.04.31:222][396]LogLinker: Warning: Can't find file for asset '/Game/Audio/leftwalk' while loading ../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/Waldo/Animation/waldo_walk_Anim.uasset.
+[2018.11.21-04.04.31:222][396]LoadErrors: Error: /Game/Waldo/Animation/waldo_walk_Anim : Can't find file for asset. /Game/Audio/leftwalk
+[2018.11.21-04.04.31:222][396]LogLinker: Warning: Can't find file '/Game/Audio/rightwalk'
+[2018.11.21-04.04.31:223][396]LogLinker: Warning: Can't find file for asset '/Game/Audio/rightwalk' while loading ../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/Waldo/Animation/waldo_walk_Anim.uasset.
+[2018.11.21-04.04.31:223][396]LoadErrors: Error: /Game/Waldo/Animation/waldo_walk_Anim : Can't find file for asset. /Game/Audio/rightwalk
+[2018.11.21-04.04.31:224][396]LogLinker: Warning: Can't find file '/Game/Audio/leftwalk'
+[2018.11.21-04.04.31:224][396]LogLinker: Warning: Can't find file for asset '/Game/Audio/leftwalk' while loading ../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/Waldo/Animation/waldo_walk_Anim.uasset.
+[2018.11.21-04.04.31:224][396]LogLinker: Warning: Can't find file '/Game/Audio/rightwalk'
+[2018.11.21-04.04.31:224][396]LogLinker: Warning: Can't find file for asset '/Game/Audio/rightwalk' while loading ../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/Waldo/Animation/waldo_walk_Anim.uasset.
+[2018.11.21-04.04.33:785][396]LogLinker: Warning: Can't find file '/Game/Audio/rightwalk'
+[2018.11.21-04.04.33:785][396]LoadErrors: Failed to load /Game/Audio/rightwalk.rightwalk Referenced by AnimNotify_PlaySound_0
+[2018.11.21-04.04.33:785][396]LogLinker: Warning: Can't find file for asset '/Game/Audio/rightwalk' while loading NULL.
+[2018.11.21-04.04.33:786][396]LogLinker: Warning: Can't find file '/Game/Audio/leftwalk'
+[2018.11.21-04.04.33:787][396]LoadErrors: Failed to load /Game/Audio/leftwalk.leftwalk Referenced by AnimNotify_PlaySound_1
+[2018.11.21-04.04.33:787][396]LogLinker: Warning: Can't find file for asset '/Game/Audio/leftwalk' while loading NULL.
+[2018.11.21-04.04.34:947][396]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave running_8...
+[2018.11.21-04.04.34:947][396]LogTemp: Couldn't find amount to resample to.
+[2018.11.21-04.04.37:486][396]LogAIModule: Creating AISystem for world world
+[2018.11.21-04.04.37:680][396]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/world.world
+[2018.11.21-04.04.37:736][396]Cmd: MAP LOAD FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.21-04.04.37:736][396]LightingResults: New page: Lighting Build
+[2018.11.21-04.04.37:740][396]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2018.11.21-04.04.37:741][396]LoadErrors: New page: Loading map: world.umap
+[2018.11.21-04.04.37:741][396]MapCheck: New page: Map Check
+[2018.11.21-04.04.37:741][396]LightingResults: New page: Lighting Build
+[2018.11.21-04.04.38:537][396]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.21-04.04.38:692][396]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.21-04.04.39:060][396]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 366.782ms to complete.
+[2018.11.21-04.04.39:064][396]LogFileHelpers: Loading map 'world' took 1.329
+[2018.11.21-04.04.55:655][703]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.21-04.04.55:775][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.21-04.04.55:777][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-04.04.55:796][703]PIE: New page: PIE session: world (Nov 20, 2018, 6:04:55 PM)
+[2018.11.21-04.04.55:796][703]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.11.21-04.04.56:072][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.275441s)
+[2018.11.21-04.04.56:074][703]LogAIModule: Creating AISystem for world world
+[2018.11.21-04.04.56:074][703]LogPlayLevel: PIE: World Init took: (0.001595s)
+[2018.11.21-04.04.56:075][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.278109s)
+[2018.11.21-04.04.56:128][703]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-04.04.56:162][703]LogInit: FAudioDevice initialized.
+[2018.11.21-04.04.56:223][703]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.21-04.04.56:294][703]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 0) at 2018.11.20-23.04.56
+[2018.11.21-04.04.56:332][703]LogWorld: Bringing up level for play took: 0.101221
+[2018.11.21-04.04.56:365][703]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.11.21-04.04.56:381][703]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8368.977 Y=3840.170 Z=178.000] for [Key_C]
+[2018.11.21-04.04.56:404][703]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 1.404
+[2018.11.21-04.04.56:405][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.21-04.06.33:991][  7]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.21-04.06.34:000][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.06.34:180][  7]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-04.06.34:180][  7]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.21-04.06.34:232][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.06.34:405][  8]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.11.21-04.06.36:850][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.14.02:680][403]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.14.39:981][956]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/People/Woman5_AI.Woman5_AI
+[2018.11.21-04.14.41:243][956]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 116 classes and 0 folders.
+[2018.11.21-04.14.43:019][956]LogSlate: Took 0.008059 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.21-04.14.43:358][957]LogSlate: Took 0.006722 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.21-04.14.44:886][  8]LogRenderer: Reallocating scene render targets to support 796x580 Format 9 NumSamples 1 (Frame:1).
+[2018.11.21-04.15.08:765][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.15.17:953][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.16.24:876][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.16.36:771][442]BlueprintLog: New page: Compile Woman5_AI
+[2018.11.21-04.16.37:990][456]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.16.38:027][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/People/Woman5_AI" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Woman5_AI.uasset" SILENT=true
+[2018.11.21-04.16.38:138][456]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Woman5_AI8576CC4145672A33822002B16AE13961.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Woman5_AI.uasset'
+[2018.11.21-04.16.38:914][483]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.16.40:624][505]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/People/Woman3_AI.Woman3_AI
+[2018.11.21-04.16.59:163][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.17.07:363][340]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.17.10:116][419]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.17.18:420][670]BlueprintLog: New page: Compile Woman3_AI
+[2018.11.21-04.17.19:511][681]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.17.19:545][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/People/Woman3_AI" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Woman3_AI.uasset" SILENT=true
+[2018.11.21-04.17.19:658][681]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Woman3_AI4DF4B6DC49EADCA21F63B0A79EEC9867.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Woman3_AI.uasset'
+[2018.11.21-04.17.20:888][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.17.23:309][749]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/People/Woman2_AI.Woman2_AI
+[2018.11.21-04.17.46:614][486]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.17.51:769][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.17.51:799][640]BlueprintLog: New page: Compile Woman2_AI
+[2018.11.21-04.17.52:779][653]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.17.52:808][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/People/Woman2_AI" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Woman2_AI.uasset" SILENT=true
+[2018.11.21-04.17.52:881][653]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Woman2_AI5771BDF34AFF3F9A33ACBA9651A01DB2.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Woman2_AI.uasset'
+[2018.11.21-04.17.53:342][669]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.17.53:534][671]LogRenderer: Reallocating scene render targets to support 1516x1156 Format 9 NumSamples 1 (Frame:864).
+[2018.11.21-04.17.55:144][693]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.21-04.17.55:941][704]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.21-04.17.57:439][721]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/People/Woman1_AI.Woman1_AI
+[2018.11.21-04.18.13:651][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.18.18:207][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.18.18:278][287]BlueprintLog: New page: Compile Woman1_AI
+[2018.11.21-04.18.19:468][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/People/Woman1_AI" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Woman1_AI.uasset" SILENT=true
+[2018.11.21-04.18.19:599][294]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Woman1_AIACF7FE1844714BA222946A8AE54C17AD.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Woman1_AI.uasset'
+[2018.11.21-04.18.29:449][425]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/People/Man4_AI.Man4_AI
+[2018.11.21-04.18.49:566][935]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.18.53:585][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.18.53:653][ 27]BlueprintLog: New page: Compile Man4_AI
+[2018.11.21-04.18.54:724][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.18.54:754][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/People/Man4_AI" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Man4_AI.uasset" SILENT=true
+[2018.11.21-04.18.54:868][ 32]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Man4_AI6EC6F4C446049AABEF17E2A0238C0466.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Man4_AI.uasset'
+[2018.11.21-04.18.55:718][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.18.57:653][ 78]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/People/Man2_AI.Man2_AI
+[2018.11.21-04.19.18:193][590]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.19.20:843][645]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.19.25:221][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.19.25:289][747]BlueprintLog: New page: Compile Man2_AI
+[2018.11.21-04.19.26:703][760]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.19.26:733][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/People/Man2_AI" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Man2_AI.uasset" SILENT=true
+[2018.11.21-04.19.26:839][760]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Man2_AID704187B4060854E81A109AFD1A81EE4.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Man2_AI.uasset'
+[2018.11.21-04.19.28:728][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.19.29:476][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.21-04.19.30:198][828]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.21-04.19.33:497][843]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/worldD20124644864166F84557B9F7BA3E5B8.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.21-04.19.38:630][843]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/world_BuiltData4F51191F47DEBEEAC64FC6984A9060F1.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset'
+[2018.11.21-04.19.42:281][886]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/People/Man1_AI1.Man1_AI1
+[2018.11.21-04.19.56:080][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.20.01:735][324]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.20.05:618][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.20.05:653][416]BlueprintLog: New page: Compile Man1_AI1
+[2018.11.21-04.20.06:944][427]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.20.06:972][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/People/Man1_AI1" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Man1_AI1.uasset" SILENT=true
+[2018.11.21-04.20.07:074][427]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Man1_AI1E93C5D9E47BEF6CC040F7C8AEBF557EF.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Man1_AI1.uasset'
+[2018.11.21-04.20.07:410][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.20.09:160][457]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/People/Cop2_AI.Cop2_AI
+[2018.11.21-04.20.44:104][629]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.44:104][629]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.44:104][629]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.44:104][629]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.44:104][629]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.44:104][629]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.44:981][656]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.44:982][656]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.44:982][656]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.44:982][656]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.44:982][656]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.44:982][656]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.46:237][697]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.46:237][697]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.46:238][697]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.46:238][697]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.46:238][697]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.46:238][697]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.11.21-04.20.59:065][114]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.11.21-04.20.59:065][114]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.11.21-04.20.59:066][114]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.11.21-04.20.59:066][114]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.11.21-04.20.59:066][114]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.11.21-04.20.59:066][114]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.11.21-04.20.59:082][114]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.11.21-04.20.59:082][114]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.11.21-04.20.59:082][114]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.11.21-04.20.59:082][114]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.11.21-04.20.59:082][114]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.11.21-04.20.59:083][114]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.11.21-04.21.19:077][674]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.21.19:148][676]BlueprintLog: New page: Compile Cop2_AI
+[2018.11.21-04.21.20:781][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/People/Cop2_AI" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Cop2_AI.uasset" SILENT=true
+[2018.11.21-04.21.20:913][692]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Cop2_AIEBA2F88048E2A716B6CE99809B7A13C5.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Cop2_AI.uasset'
+[2018.11.21-04.21.25:724][759]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/People/Cop1_AI.Cop1_AI
+[2018.11.21-04.21.40:380][100]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.21.45:003][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.21.51:750][381]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.21.57:314][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.21.57:354][496]BlueprintLog: New page: Compile Cop1_AI
+[2018.11.21-04.21.59:118][507]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.21.59:180][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/People/Cop1_AI" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Cop1_AI.uasset" SILENT=true
+[2018.11.21-04.21.59:383][507]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Cop1_AI1DB29A4F484C44FFEDFDD0AB0C43976E.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Cop1_AI.uasset'
+[2018.11.21-04.22.00:277][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.22.01:117][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.21-04.22.01:932][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.21-04.22.09:670][596]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/worldDC310C6F4794101A9760E28F09D41855.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.21-04.22.09:750][596]LogFileHelpers: Saving map 'world' took 3.492
+[2018.11.21-04.22.18:166][706]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.21-04.22.28:959][706]LogSlate: Window 'Submit Files' being destroyed
+[2018.11.21-04.22.46:196][706]LogSourceControl: commit successful: [master 3bb07b4] collision boxes
+[2018.11.21-04.22.46:936][706]SourceControl: [master 3bb07b4] collision boxes
+[2018.11.21-04.22.46:936][706]SourceControl:  13 files changed, 0 insertions(+), 0 deletions(-)
+[2018.11.21-04.22.46:936][706]SourceControl:  create mode 100644 Content/Audio/430708__juandamb__running.uasset
+[2018.11.21-04.22.46:936][706]SourceControl:  create mode 100644 Content/Audio/running_8.uasset
+[2018.11.21-04.22.46:936][706]SourceControl:  rewrite Content/People/Cop1_AI.uasset (83%)
+[2018.11.21-04.22.46:936][706]SourceControl:  rewrite Content/People/Cop2_AI.uasset (83%)
+[2018.11.21-04.22.46:936][706]SourceControl:  rewrite Content/People/Man1_AI1.uasset (83%)
+[2018.11.21-04.22.46:936][706]SourceControl:  rewrite Content/People/Man2_AI.uasset (83%)
+[2018.11.21-04.22.46:936][706]SourceControl:  rewrite Content/People/Man4_AI.uasset (83%)
+[2018.11.21-04.22.46:937][706]SourceControl:  rewrite Content/People/Woman1_AI.uasset (83%)
+[2018.11.21-04.22.46:937][706]SourceControl:  rewrite Content/People/Woman2_AI.uasset (85%)
+[2018.11.21-04.22.46:937][706]SourceControl:  rewrite Content/People/Woman3_AI.uasset (83%)
+[2018.11.21-04.22.46:937][706]SourceControl:  rewrite Content/People/Woman5_AI.uasset (82%)
+[2018.11.21-04.22.46:953][706]SourceControl: Commited [master 3bb07b4] collision boxes.
+[2018.11.21-04.23.53:521][513]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/door.door
+[2018.11.21-04.24.11:815][972]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.21-04.24.14:497][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.24.25:246][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.24.25:289][283]BlueprintLog: New page: Compile door
+[2018.11.21-04.25.09:012][214]BlueprintLog: New page: Compile door
+[2018.11.21-04.25.10:843][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/door" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset" SILENT=true
+[2018.11.21-04.25.10:995][229]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/doorDAF1953B4751A06B039B01AA176B1300.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/BluePrints/door.uasset'
+[2018.11.21-04.25.19:050][324]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.11.21-04.25.22:072][355]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.25.31:933][451]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/People/Cop1_AI.Cop1_AI
+[2018.11.21-04.25.44:462][778]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.11.21-04.25.44:462][778]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.11.21-04.25.44:462][778]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.11.21-04.25.44:462][778]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.11.21-04.25.44:462][778]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.11.21-04.25.44:481][778]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.11.21-04.25.44:481][778]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.11.21-04.25.44:481][778]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.11.21-04.25.44:481][778]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.11.21-04.25.44:481][778]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.11.21-04.25.56:928][166]BlueprintLog: New page: Compile Cop1_AI
+[2018.11.21-04.25.58:666][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/People/Cop1_AI" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Cop1_AI.uasset" SILENT=true
+[2018.11.21-04.25.58:846][183]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Cop1_AIAA97F10744E2BC10DE63029059BCF561.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/People/Cop1_AI.uasset'
+[2018.11.21-04.26.17:885][347]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.21-04.26.20:953][347]SourceControl: rm 'Content/ThirdPersonBP/Blueprints/Waldo_Test.uasset'
+[2018.11.21-04.26.26:033][394]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Waldo/Waldo_AI.Waldo_AI
+[2018.11.21-04.26.49:942][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.27.00:550][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.27.15:896][247]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.11.21-04.27.35:685][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.28.19:202][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.28.50:836][ 52]BlueprintLog: New page: Compile Waldo_AI
+[2018.11.21-04.28.53:357][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Waldo/Waldo_AI" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/Waldo/Waldo_AI.uasset" SILENT=true
+[2018.11.21-04.28.53:578][ 76]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Waldo_AI60CA53BE4A1339D649EEF282961A8703.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/Waldo/Waldo_AI.uasset'
+[2018.11.21-04.28.58:703][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.21-04.29.00:162][159]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.21-04.29.00:601][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.21-04.29.00:604][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.21-04.29.00:612][159]PIE: New page: PIE session: world (Nov 20, 2018, 6:29:00 PM)
+[2018.11.21-04.29.00:614][159]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.11.21-04.29.01:167][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.553418s)
+[2018.11.21-04.29.01:172][159]LogAIModule: Creating AISystem for world world
+[2018.11.21-04.29.01:179][159]LogPlayLevel: PIE: World Init took: (0.011417s)
+[2018.11.21-04.29.01:180][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.567131s)
+[2018.11.21-04.29.01:329][159]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.21-04.29.01:400][159]LogInit: FAudioDevice initialized.
+[2018.11.21-04.29.01:455][159]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.21-04.29.01:631][159]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 60) at 2018.11.20-23.29.01
+[2018.11.21-04.29.01:660][159]LogWorld: Bringing up level for play took: 0.198112
+[2018.11.21-04.29.01:733][159]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 0.732
+[2018.11.21-04.29.01:733][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.21-04.29.45:501][773]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.21-04.29.45:506][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.29.45:641][773]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.21-04.29.45:642][773]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.21-04.29.45:773][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.21-04.29.46:044][774]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.11.21-04.29.48:260][793]Cmd: SELECT NONE
+[2018.11.21-04.30.03:701][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.21-04.30.08:246][988]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Waldo/Waldo_AI.Waldo_AI
+[2018.11.21-04.31.17:921][936]BlueprintLog: New page: Compile Waldo_AI
+[2018.11.21-04.31.19:753][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Waldo/Waldo_AI" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/Waldo/Waldo_AI.uasset" SILENT=true
+[2018.11.21-04.31.19:949][955]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Waldo_AID77E028B4FF7DC1DD2631195E5F3E1DE.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/Waldo/Waldo_AI.uasset'
+[2018.11.21-04.32.56:151][895]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/world_Auto158418C0B452AFE48CB162B9C44E932A2.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Autosaves/Game/ThirdPersonBP/Maps/world_Auto1.umap'
+[2018.11.21-04.32.56:207][895]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/world' took 3.944
+[2018.11.21-04.32.56:207][895]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.944
+[2018.11.21-04.32.56:313][895]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Waldo/Waldo_AI] ([1] browsable assets)...
+[2018.11.21-04.32.56:313][895]OBJ SavePackage: Finished generating thumbnails for package [/Game/Waldo/Waldo_AI]
+[2018.11.21-04.32.56:567][895]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Waldo_AI_Auto1A558B00B4E6A528292D7CD9CC2068131.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Autosaves/Game/Waldo/Waldo_AI_Auto1.uasset'
+[2018.11.21-04.32.56:577][895]LogFileHelpers: Auto-saving content packages took 0.276
+[2018.11.21-04.39.05:259][ 61]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/worldC87F43514C85EEBC5B32A9B9962C7F21.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.21-04.39.05:760][ 61]LogFileHelpers: Saving map 'world' took 4.721
+[2018.11.21-04.39.05:770][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Waldo/Waldo_AI" FILE="../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/Waldo/Waldo_AI.uasset" SILENT=true
+[2018.11.21-04.39.06:389][ 61]LogSavePackage: Moving '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Saved/Waldo_AI7E3AF9A9417DD4FEA3F709826DBBD76A.tmp' to '../../../../../../Users/NIriz/OneDrive/Documents/Unreal Projects/NewWaldo/Content/Waldo/Waldo_AI.uasset'
+[2018.11.21-04.39.35:624][369]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.21-04.39.49:260][369]LogSlate: Window 'Submit Files' being destroyed
+[2018.11.21-04.39.59:035][369]LogSourceControl: commit successful: [master 926f8b9] testing
+[2018.11.21-04.39.59:897][369]SourceControl: [master 926f8b9] testing
+[2018.11.21-04.39.59:897][369]SourceControl:  5 files changed, 0 insertions(+), 0 deletions(-)
+[2018.11.21-04.39.59:897][369]SourceControl:  rewrite Content/BluePrints/door.uasset (75%)
+[2018.11.21-04.39.59:897][369]SourceControl:  delete mode 100644 Content/ThirdPersonBP/Blueprints/Waldo_Test.uasset
+[2018.11.21-04.39.59:897][369]SourceControl:  rewrite Content/Waldo/Waldo_AI.uasset (84%)
+[2018.11.21-04.39.59:908][369]SourceControl: Commited [master 926f8b9] testing.
+[2018.11.21-04.40.42:650][758]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.21-04.40.43:958][758]EditorErrors: Warning: No assets to check in!
