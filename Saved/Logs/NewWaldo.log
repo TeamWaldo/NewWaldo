@@ -467,3 +467,62 @@ LogInit: Object subsystem initialized
 [2018.11.29-18.21.14:656][849]SourceControl:  rewrite Content/BluePrints/Items/Diploma.uasset (81%)
 [2018.11.29-18.21.14:656][849]SourceControl:  rewrite Content/BluePrints/Items/Key.uasset (80%)
 [2018.11.29-18.21.14:664][849]SourceControl: Commited [master f6d2ef3] Removed the glow.
+[2018.11.29-18.21.33:630][133]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Items/Bino.Bino
+[2018.11.29-18.21.52:030][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-18.21.52:075][903]BlueprintLog: New page: Compile Bino
+[2018.11.29-18.21.53:081][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Items/Bino" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Bino.uasset" SILENT=true
+[2018.11.29-18.21.53:108][914]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/BinoD6AFF03646B871E179B2DA930876D6C1.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Bino.uasset'
+[2018.11.29-18.21.57:682][969]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Items/Bone.Bone
+[2018.11.29-18.22.00:050][139]BlueprintLog: New page: Compile Bone
+[2018.11.29-18.22.05:853][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-18.22.05:945][255]BlueprintLog: New page: Compile Bone
+[2018.11.29-18.22.06:986][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Items/Bone" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Bone.uasset" SILENT=true
+[2018.11.29-18.22.07:012][267]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/Bone42FD0CFF468FACF1FF672BBEE151C7EE.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Bone.uasset'
+[2018.11.29-18.22.08:845][286]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Items/Diploma.Diploma
+[2018.11.29-18.22.20:161][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-18.22.20:870][832]BlueprintLog: New page: Compile Diploma
+[2018.11.29-18.22.21:798][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Items/Diploma" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Diploma.uasset" SILENT=true
+[2018.11.29-18.22.21:829][841]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/Diploma3CA8128346CD7EF8CFFD64A480DEA45C.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Diploma.uasset'
+[2018.11.29-18.22.23:757][861]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Items/Key.Key
+[2018.11.29-18.22.32:826][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-18.22.32:871][117]BlueprintLog: New page: Compile Key
+[2018.11.29-18.22.33:729][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Items/Key" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Key.uasset" SILENT=true
+[2018.11.29-18.22.33:754][125]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/Key1081FD6B4B395D3D026852AFD799CD5F.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Key.uasset'
+[2018.11.29-18.22.35:465][144]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Items/Camera.Camera
+[2018.11.29-18.22.42:543][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-18.22.42:634][400]BlueprintLog: New page: Compile Camera
+[2018.11.29-18.22.43:554][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Items/Camera" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Camera.uasset" SILENT=true
+[2018.11.29-18.22.43:591][409]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/Camera7344C4214CB4B5189F26489728A2F98D.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Camera.uasset'
+[2018.11.29-18.22.45:228][430]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-18.22.45:328][430]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-18.22.45:328][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-18.22.45:331][430]PIE: New page: PIE session: world (Nov 29, 2018, 8:22:45 AM)
+[2018.11.29-18.22.45:331][430]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.11.29-18.22.45:481][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148593s)
+[2018.11.29-18.22.45:482][430]LogAIModule: Creating AISystem for world world
+[2018.11.29-18.22.45:483][430]LogPlayLevel: PIE: World Init took: (0.001321s)
+[2018.11.29-18.22.45:483][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.150520s)
+[2018.11.29-18.22.45:541][430]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.29-18.22.45:636][430]LogInit: FAudioDevice initialized.
+[2018.11.29-18.22.45:686][430]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-18.22.45:729][430]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 0) at 2018.11.29-13.22.45
+[2018.11.29-18.22.45:738][430]LogWorld: Bringing up level for play took: 0.049332
+[2018.11.29-18.22.45:762][430]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 0.475
+[2018.11.29-18.22.45:762][430]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-18.24.29:576][581]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-18.24.29:577][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-18.24.29:705][581]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-18.24.29:705][581]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-18.24.29:772][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-18.24.29:853][582]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.11.29-18.25.11:547][984]Cmd: SELECT NONE
+[2018.11.29-18.25.19:212][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-18.25.23:308][ 97]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.29-18.25.23:693][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-18.25.40:232][ 97]LogSlate: Window 'Submit Files' being destroyed
+[2018.11.29-18.25.40:247][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-18.25.40:491][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-18.25.41:164][ 97]LogSourceControl: commit successful: [master c3b300b] Lowered Items closer to the floor
+[2018.11.29-18.25.41:317][ 97]SourceControl: [master c3b300b] Lowered Items closer to the floor
+[2018.11.29-18.25.41:317][ 97]SourceControl:  5 files changed, 0 insertions(+), 0 deletions(-)
+[2018.11.29-18.25.41:325][ 97]SourceControl: Commited [master c3b300b] Lowered Items closer to the floor.
