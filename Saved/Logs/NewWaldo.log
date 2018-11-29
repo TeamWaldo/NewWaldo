@@ -2565,3 +2565,217 @@ LogInit: Object subsystem initialized
 [2018.11.29-21.07.41:639][531]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/world7666C2424CD016DF077C9FA9D2A9379E.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
 [2018.11.29-21.07.42:134][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/world_BuiltData" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset" SILENT=true
 [2018.11.29-21.07.43:295][531]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/world_BuiltData30888F6C4AF1DF226A972E8D7D8C6291.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset'
+[2018.11.29-21.09.23:306][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-21.09.37:176][263]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-21.09.37:297][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-21.09.37:300][263]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.29-21.09.37:313][263]LogPlayLevel: [PlayLevel] Compiling Camera before play...
+[2018.11.29-21.09.37:324][263]LogBlueprint: Error: [Compiler Camera] This blueprint (self) is not a NewInterface_C, therefore ' Target ' must have a connection.
+[2018.11.29-21.09.37:326][263]LogBlueprint: Warning: [Compiler Camera] [9185.93] Compile of Camera failed. 1 Fatal Issue(s) 0 Warning(s) [in 20 ms] (/Game/BluePrints/Items/Camera.Camera)
+[2018.11.29-21.09.37:560][263]LogPlayLevel: PlayLevel: Blueprint regeneration took 260 ms (1 blueprints)
+[2018.11.29-21.09.37:560][263]BlueprintLog: Blueprint Camera failed to compile
+[2018.11.29-21.09.42:957][263]LogSlate: Window 'Message' being destroyed
+[2018.11.29-21.09.45:015][342]BlueprintLog: New page: Compile door
+[2018.11.29-21.09.46:409][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/door" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/door.uasset" SILENT=true
+[2018.11.29-21.09.46:439][417]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/doorF6A261C6486A81BAAE0D208A272F7B54.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/door.uasset'
+[2018.11.29-21.10.02:233][912]BlueprintLog: New page: Compile Camera
+[2018.11.29-21.10.14:417][939]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-21.10.14:495][939]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-21.10.14:495][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-21.10.14:502][939]PIE: New page: PIE session: world (Nov 29, 2018, 11:10:14 AM)
+[2018.11.29-21.10.14:502][939]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.11.29-21.10.14:705][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.201737s)
+[2018.11.29-21.10.14:709][939]LogAIModule: Creating AISystem for world world
+[2018.11.29-21.10.14:710][939]LogPlayLevel: PIE: World Init took: (0.005011s)
+[2018.11.29-21.10.14:711][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.207917s)
+[2018.11.29-21.10.14:762][939]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.29-21.10.14:841][939]LogInit: FAudioDevice initialized.
+[2018.11.29-21.10.14:878][939]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-21.10.14:923][939]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 0) at 2018.11.29-16.10.14
+[2018.11.29-21.10.14:930][939]LogWorld: Bringing up level for play took: 0.049953
+[2018.11.29-21.10.14:960][939]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world -0.327
+[2018.11.29-21.10.14:960][939]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-21.10.52:401][319]LogNet: Browse: /Game/ThirdPersonBP/Maps/WinScreen
+[2018.11.29-21.10.52:501][319]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/WinScreen
+[2018.11.29-21.10.52:622][319]LogAIModule: Creating AISystem for world WinScreen
+[2018.11.29-21.10.52:622][319]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-21.10.52:623][319]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_WinScreen.WinScreen up for play (max tick rate 0) at 2018.11.29-16.10.52
+[2018.11.29-21.10.52:624][319]LogWorld: Bringing up level for play took: 0.000682
+[2018.11.29-21.10.52:625][319]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.11.29-21.10.52:629][319]LogLoad: Took 0.128177 seconds to LoadMap(/Game/ThirdPersonBP/Maps/WinScreen)
+[2018.11.29-21.10.53:932][361]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-21.10.53:933][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-21.10.54:017][361]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-21.10.54:017][361]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-21.10.54:060][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-21.10.54:094][362]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2018.11.29-21.12.19:639][ 47]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-21.14.55:218][ 29]BlueprintLog: New page: Compile NewInterface
+[2018.11.29-21.14.55:979][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/NewInterface" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/NewInterface.uasset" SILENT=true
+[2018.11.29-21.14.55:989][ 30]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/NewInterfaceB38FC3B94BD7B288A8F1168ADCE191BE.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/NewInterface.uasset'
+[2018.11.29-21.15.04:243][710]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/ThirdPersonCharacter5222ED174D311FCC54BB44A80CBD9F97.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.11.29-21.15.23:753][702]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2018.11.29-21.15.43:493][773]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2018.11.29-21.15.57:344][276]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2018.11.29-21.17.34:694][523]BlueprintLog: New page: Compile NewInterface
+[2018.11.29-21.17.35:639][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/NewInterface" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/NewInterface.uasset" SILENT=true
+[2018.11.29-21.17.35:649][546]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/NewInterfaceBB6333F94835CE0D7093F18B77ED640C.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/NewInterface.uasset'
+[2018.11.29-21.17.43:138][ 11]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/worldED33AE864050E4360CEBCEA51F662A82.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.29-21.17.43:435][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/world_BuiltData" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset" SILENT=true
+[2018.11.29-21.17.44:686][ 11]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/world_BuiltData3EA07DA049D46F1440E8398E53C956B6.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset'
+[2018.11.29-21.19.08:373][144]LogEditorTransaction: Undo Create Pin Link
+[2018.11.29-21.19.10:461][309]BlueprintLog: New page: Compile door
+[2018.11.29-21.19.17:417][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/door" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/door.uasset" SILENT=true
+[2018.11.29-21.19.17:447][872]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/doorFAC4F1554D71ABCE246010A6FBE29377.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/door.uasset'
+[2018.11.29-21.19.43:257][ 88]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.11.29-21.19.44:326][103]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/ThirdPersonCharacterCE8F880C400900F4A39981AECC7DD76D.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.11.29-21.21.30:785][769]BlueprintLog: New page: Compile NewInterface
+[2018.11.29-21.21.31:765][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/NewInterface" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/NewInterface.uasset" SILENT=true
+[2018.11.29-21.21.31:779][795]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/NewInterface0620A48147985056F3A07CBC20CFF0CB.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/NewInterface.uasset'
+[2018.11.29-21.21.44:529][815]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/ThirdPersonCharacter91D33E664E3C6DBDD3FB0C933B85EBCB.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.11.29-21.21.45:323][874]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.11.29-21.22.13:365][841]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.11.29-21.22.14:427][850]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/ThirdPersonCharacter6BE26C2F449E982049A51BB0704CD651.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.11.29-21.22.49:017][977]BlueprintLog: New page: Compile Camera
+[2018.11.29-21.22.49:950][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Items/Camera" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Camera.uasset" SILENT=true
+[2018.11.29-21.22.50:016][  7]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/CameraEEA71D6D440F64529E9FD09216783AE3.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Camera.uasset'
+[2018.11.29-21.23.12:368][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Items/Bone" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Bone.uasset" SILENT=true
+[2018.11.29-21.23.12:407][ 21]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/Bone8E60240D47E6437815324299936B8F6C.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Bone.uasset'
+[2018.11.29-21.23.13:181][107]BlueprintLog: New page: Compile Bone
+[2018.11.29-21.23.14:330][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Items/Bone" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Bone.uasset" SILENT=true
+[2018.11.29-21.23.14:355][158]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/Bone18FBBD0E41D9B6430E4A5DBA48C0C286.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Bone.uasset'
+[2018.11.29-21.23.34:395][961]BlueprintLog: New page: Compile Key
+[2018.11.29-21.23.35:331][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Items/Key" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Key.uasset" SILENT=true
+[2018.11.29-21.23.35:358][993]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/Key422C00DF449513F7D0029FAFBBD7FF4E.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/Items/Key.uasset'
+[2018.11.29-21.23.42:816][503]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/world5B24E41F480EF72C9D0EAE9A2E240A74.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.29-21.23.43:296][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/world_BuiltData" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset" SILENT=true
+[2018.11.29-21.23.44:517][503]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/world_BuiltData201526E7429E1042ABAF69A0438D1B44.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset'
+[2018.11.29-21.24.07:356][572]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-21.24.07:429][572]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-21.24.07:429][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-21.24.07:429][572]PIE: New page: PIE session: world (Nov 29, 2018, 11:24:07 AM)
+[2018.11.29-21.24.07:430][572]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.11.29-21.24.07:529][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100007s)
+[2018.11.29-21.24.07:530][572]LogAIModule: Creating AISystem for world world
+[2018.11.29-21.24.07:530][572]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2018.11.29-21.24.07:530][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.101384s)
+[2018.11.29-21.24.07:591][572]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.29-21.24.07:675][572]LogInit: FAudioDevice initialized.
+[2018.11.29-21.24.07:713][572]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-21.24.07:743][572]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 0) at 2018.11.29-16.24.07
+[2018.11.29-21.24.07:749][572]LogWorld: Bringing up level for play took: 0.034202
+[2018.11.29-21.24.07:765][572]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 0.478
+[2018.11.29-21.24.07:765][572]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-21.25.12:172][221]LogNet: Browse: /Game/ThirdPersonBP/Maps/WinScreen
+[2018.11.29-21.25.12:262][221]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/WinScreen
+[2018.11.29-21.25.12:371][221]LogAIModule: Creating AISystem for world WinScreen
+[2018.11.29-21.25.12:372][221]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-21.25.12:374][221]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_WinScreen.WinScreen up for play (max tick rate 0) at 2018.11.29-16.25.12
+[2018.11.29-21.25.12:374][221]LogWorld: Bringing up level for play took: 0.000711
+[2018.11.29-21.25.12:374][221]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.11.29-21.25.12:377][221]LogLoad: Took 0.114951 seconds to LoadMap(/Game/ThirdPersonBP/Maps/WinScreen)
+[2018.11.29-21.25.13:787][266]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-21.25.13:788][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-21.25.13:831][266]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-21.25.13:831][266]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-21.25.13:873][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-21.25.13:925][267]LogPlayLevel: Display: Destroying online subsystem :Context_77
+[2018.11.29-21.25.17:413][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-21.25.37:726][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-21.25.37:801][242]BlueprintLog: New page: Compile door
+[2018.11.29-21.25.38:994][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/door" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/door.uasset" SILENT=true
+[2018.11.29-21.25.39:069][260]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/door37B12E1A442FE3881E99C78A1AFC5022.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/door.uasset'
+[2018.11.29-21.25.58:452][505]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-21.26.09:180][723]Cmd: SELECT NONE
+[2018.11.29-21.26.11:269][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-21.26.13:146][828]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-21.26.13:890][828]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/world5D9E75EC4D40C7FD4EC15DB6E343C662.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.29-21.26.14:378][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/world_BuiltData" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset" SILENT=true
+[2018.11.29-21.26.15:507][828]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/world_BuiltData7FF2B96449C4424B041667969D1F0577.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset'
+[2018.11.29-21.26.25:216][  9]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/door.door
+[2018.11.29-21.26.32:035][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/door" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/door.uasset" SILENT=true
+[2018.11.29-21.26.32:064][517]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/door171B64C74048399053CE90A3F86D05A3.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/BluePrints/door.uasset'
+[2018.11.29-21.26.34:119][695]BlueprintLog: New page: Compile door
+[2018.11.29-21.26.35:633][715]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-21.26.35:710][715]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-21.26.35:711][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-21.26.35:711][715]PIE: New page: PIE session: world (Nov 29, 2018, 11:26:35 AM)
+[2018.11.29-21.26.35:715][715]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_world
+[2018.11.29-21.26.35:894][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.180351s)
+[2018.11.29-21.26.35:896][715]LogAIModule: Creating AISystem for world world
+[2018.11.29-21.26.35:896][715]LogPlayLevel: PIE: World Init took: (0.001919s)
+[2018.11.29-21.26.35:897][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/world.world to /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world (0.182660s)
+[2018.11.29-21.26.35:938][715]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.29-21.26.36:024][715]LogInit: FAudioDevice initialized.
+[2018.11.29-21.26.36:053][715]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-21.26.36:075][715]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_world.world up for play (max tick rate 0) at 2018.11.29-16.26.36
+[2018.11.29-21.26.36:080][715]LogWorld: Bringing up level for play took: 0.026721
+[2018.11.29-21.26.36:105][715]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_world 0.819
+[2018.11.29-21.26.36:105][715]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-21.26.51:093][886]LogNet: Browse: /Game/ThirdPersonBP/Maps/WinScreen
+[2018.11.29-21.26.51:177][886]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/WinScreen
+[2018.11.29-21.26.51:278][886]LogAIModule: Creating AISystem for world WinScreen
+[2018.11.29-21.26.51:279][886]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-21.26.51:280][886]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_WinScreen.WinScreen up for play (max tick rate 0) at 2018.11.29-16.26.51
+[2018.11.29-21.26.51:281][886]LogWorld: Bringing up level for play took: 0.000850
+[2018.11.29-21.26.51:281][886]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.11.29-21.26.51:284][886]LogLoad: Took 0.106544 seconds to LoadMap(/Game/ThirdPersonBP/Maps/WinScreen)
+[2018.11.29-21.26.52:629][931]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-21.26.52:630][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-21.26.52:712][931]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-21.26.52:713][931]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world' with GeneratedClass '/Game/ThirdPersonBP/Maps/world.world_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/world.world:PersistentLevel.world'
+[2018.11.29-21.26.52:757][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-21.26.52:791][932]LogPlayLevel: Display: Destroying online subsystem :Context_79
+[2018.11.29-21.26.54:867][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-21.26.58:173][  3]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/world2B455AF94C3DE4A562C21291CEA6EDE7.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.29-21.26.58:648][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/world_BuiltData" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset" SILENT=true
+[2018.11.29-21.26.59:765][  3]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/world_BuiltDataDBF3F934442E5CB636E583B2B636FC23.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset'
+[2018.11.29-21.27.09:179][ 85]LogEditorViewport: Clicking on Actor (LMB): Bino_C (Bino)
+[2018.11.29-21.27.10:098][ 92]Cmd: DELETE
+[2018.11.29-21.27.10:098][ 92]Cmd: ACTOR DELETE
+[2018.11.29-21.27.10:132][ 92]LogEditorActor: Deleted Actor: Bino_C
+[2018.11.29-21.27.10:235][ 92]LogEditorActor: Deleted 1 Actors (0.133 secs)
+[2018.11.29-21.27.11:045][ 99]LogEditorViewport: Clicking on Actor (LMB): Camera_C (Camera)
+[2018.11.29-21.27.11:283][ 99]Cmd: DELETE
+[2018.11.29-21.27.11:283][ 99]Cmd: ACTOR DELETE
+[2018.11.29-21.27.11:295][ 99]LogEditorActor: Deleted Actor: Camera_C
+[2018.11.29-21.27.11:334][ 99]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2018.11.29-21.27.12:030][105]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.11.29-21.27.12:607][108]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.11.29-21.27.13:882][117]LogEditorViewport: Clicking on Actor (LMB): Bone_C (Bone)
+[2018.11.29-21.27.14:485][122]Cmd: DELETE
+[2018.11.29-21.27.14:485][122]Cmd: ACTOR DELETE
+[2018.11.29-21.27.14:499][122]LogEditorActor: Deleted Actor: Bone_C
+[2018.11.29-21.27.14:616][122]LogEditorActor: Deleted 1 Actors (0.131 secs)
+[2018.11.29-21.27.15:263][127]LogEditorViewport: Clicking on Actor (LMB): Diploma_C (Diploma)
+[2018.11.29-21.27.15:834][132]Cmd: DELETE
+[2018.11.29-21.27.15:834][132]Cmd: ACTOR DELETE
+[2018.11.29-21.27.15:848][132]LogEditorActor: Deleted Actor: Diploma_C
+[2018.11.29-21.27.15:964][132]LogEditorActor: Deleted 1 Actors (0.130 secs)
+[2018.11.29-21.27.16:728][138]LogEditorViewport: Clicking on Actor (LMB): Key_C (Key)
+[2018.11.29-21.27.17:297][143]Cmd: DELETE
+[2018.11.29-21.27.17:297][143]Cmd: ACTOR DELETE
+[2018.11.29-21.27.17:312][143]LogEditorActor: Deleted Actor: Key_C
+[2018.11.29-21.27.17:426][143]LogEditorActor: Deleted 1 Actors (0.128 secs)
+[2018.11.29-21.27.19:189][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-21.27.21:676][232]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.29-21.27.22:358][238]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.29-21.27.23:050][244]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.29-21.27.23:741][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.29-21.27.24:557][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.29-21.27.25:844][268]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.29-21.27.29:138][284]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/world8B1379E14ACF7E796D503784F8381E27.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world.umap'
+[2018.11.29-21.27.29:634][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/world_BuiltData" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset" SILENT=true
+[2018.11.29-21.27.30:750][284]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/world_BuiltData1AD1530846A1D1857CB4558FD3EDA307.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/ThirdPersonBP/Maps/world_BuiltData.uasset'
+[2018.11.29-21.27.32:601][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/ITEMS" FILE="../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/UI/ITEMS.uasset" SILENT=true
+[2018.11.29-21.27.32:637][298]LogSavePackage: Moving '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Saved/ITEMS3EDE808F43F466B996E61DB88B6FBF53.tmp' to '../../../../../../Users/Neysha/Documents/GitHub/NewWaldo/Content/UI/ITEMS.uasset'
+[2018.11.29-21.27.38:009][343]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.11.29-21.27.49:450][343]LogSlate: Window 'Submit Files' being destroyed
+[2018.11.29-21.27.55:414][343]LogSourceControl: commit successful: [master 0bc63e6] Win state
+[2018.11.29-21.27.56:168][343]SourceControl: [master 0bc63e6] Win state
+[2018.11.29-21.27.56:168][343]SourceControl:  9 files changed, 0 insertions(+), 0 deletions(-)
+[2018.11.29-21.27.56:168][343]SourceControl:  rewrite Content/BluePrints/Items/Bone.uasset (83%)
+[2018.11.29-21.27.56:168][343]SourceControl:  rewrite Content/BluePrints/Items/Camera.uasset (83%)
+[2018.11.29-21.27.56:168][343]SourceControl:  rewrite Content/BluePrints/Items/Key.uasset (83%)
+[2018.11.29-21.27.56:168][343]SourceControl:  rewrite Content/BluePrints/NewInterface.uasset (76%)
+[2018.11.29-21.27.56:176][343]SourceControl: Commited [master 0bc63e6] Win state.
